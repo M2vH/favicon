@@ -11,5 +11,5 @@
 <!-- https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.css -->	
 <style type="text/css"> @import url("m2vh_favicon.css")</style>
 <rect id="my_rect" x="0" y="0" width="260" height="260"/>  
-<text id="my_text" x="10" y="130">M2vH</text>	
+<text id="my_text" x="10" y="130" style="fill:orange;size:90px;">M2vH</text>	
 </svg>
