@@ -11,4 +11,6 @@
 <!-- https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.css -->	
 <style type="text/css"></style>
 <rect id="my_rect" x="0" y="0" width="260" height="260" style="background-color:green;"/>  
+<text id="my_text" x="120" y="120" style="fill:green">Und das ist mein Text.
+</text>	
 </svg>
