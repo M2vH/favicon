@@ -50,9 +50,9 @@ Reference the SVG as an image
 	}
 </style>
 ```
-
+<div style="width:80%;padding-left:10%;">
 <img id="my_img" src="https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg" >
-
+</div>
 <!-- 
 style="width:80% !important;padding-left:10%;padding-right:10%;"
 -->	
