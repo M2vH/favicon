@@ -7,29 +7,36 @@ We can display a SVG file as internal or external SVG
 
 ### Internal SVG
 
+The inline svg with inline css style definitions.
+
 ```html
-<svg 
+<svg id="my_svg"
   version="1.1" 
   xmlns="http://www.w3.org/2000/svg" 
   xmlns:xlink="http://www.w3.org/1999/xlink" 
-  x="0px" 
-  y="0px"
-  viewBox="0 0 260 260" 
-  style="enable-background:new 0 0 260 260;" 
+  x="0px" y="0px"
+	viewBox="0 0 260 260" 
+  style="background-color: darkgoldenrod;" 
   xml:space="preserve">
-
-<!-- not working 
-<style type="text/css"> @import url("https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.css")</style>
--->
-
-<style>
-	#my_text {
+<defs>
+<style type="text/css"> @import url("m2vh_favicon.css")</style>
+</defs>
+<style type="text/css">
+	#my_svg_text {
 		fill: orange;
-	}
+		font-size: 90px;
+		}
+	#my_svg_rect {
+		fill: green;
+		}
 </style>
 
-<text id="my_text" x="10" y="130">M2vH</text>	
+<rect id="my_svg_rect" x="5" y="5" width="250" height="250"/>  
+
+<text id="my_svg_text" x="10" y="130">M2vH</text>	
+
 </svg>
+
 ```
 ### External SVG
 
