@@ -34,9 +34,9 @@ Creating a svg file to be converted into favicon
 ### External SVG
 
 There are several ways to include a SVG file:
-    - \<img>
-    - \<object>
-    - \<iframe>
+    - \<img>  
+    - \<object>  
+    - \<iframe>  
 		
 #### Reference the SVG as an object
 
