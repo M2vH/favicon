@@ -9,7 +9,7 @@ Creating a svg file to be converted into favicon
 
 ### Internal SVG
 
-The SVG displayed below we see an inline svg with style inline the svg tags.
+The SVG displayed below shows an inline svg with style inline the svg tags.
 
 <svg id="my_svg"
   version="1.1" 
@@ -42,7 +42,9 @@ The SVG displayed below we see an inline svg with style inline the svg tags.
 
 </svg>
 
-The SVG displayed below we see an inline svg with reference to external CSS.
+---
+
+The SVG displayed below shows an inline svg with reference to external CSS.
 
 <svg id="my_svg"
   version="1.1" 
