@@ -41,7 +41,6 @@ Reference the SVG as an object
 </object>
 
 Reference the SVG as an image
-```html
 <style>
 	#my_img {
 		width: 80%;
@@ -49,7 +48,6 @@ Reference the SVG as an image
 		padding-right: 10%;
 	}
 </style>
-```
 <div style="width:80%;padding-left:10%;">
 <img id="my_img" src="https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg" >
 </div>
