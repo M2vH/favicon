@@ -34,7 +34,7 @@ Creating a svg file to be converted into favicon
 
 <rect id="my_svg_rect" x="5" y="5" width="250" height="250"/>  
 
-<text id="my_svg_text" x="130" y="175">M2vH</text>	
+<text id="my_svg_text" x="130" y="130">M2vH</text>	
 
 </svg>
 
