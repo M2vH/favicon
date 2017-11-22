@@ -1,7 +1,9 @@
 # favicon
 Creating a svg file to be converted into favicon
 
-## Display a SVG
+## How to display a SVG
+
+We can display a SVG file as internal or external SVG
 
 ### Internal SVG
 
