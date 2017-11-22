@@ -1,14 +1,16 @@
 /* m2vh_favicon.svg will reference here */
 #my_svg_text {
-  fill: green;
+	fill: green;
 }
 
-	#my_text { 
-		fill: orange;
-		font-size: 90px;
-	}
+#my_text { 
+	fill: orange;
+	font-size: 90px;
+	text-anchor: middle;
+	alignment-baseline: central;
+}
 
-	#my_rect {
-		fill: green;
-	}
+#my_rect {
+	fill: green;
+}
 	
