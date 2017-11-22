@@ -25,16 +25,14 @@ Creating a svg file to be converted into favicon
 	}
 </style>
 
-<!--
-<rect id="my_rect" x="0" y="0" width="260" height="260" style="background-color:green;"/>  
--->
+<rect id="my_rect" x="5" y="5" width="250" height="250" style="background-color:green;"/>  
 
 <text id="my_svg_text" x="10" y="130">M2vH</text>	
 </svg>
 
 ### External SVG
 
-There are several ways to include a SVG file:
+There are several ways to include a SVG file:  
     - \<img>  
     - \<object>  
     - \<iframe>  
