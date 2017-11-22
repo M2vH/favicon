@@ -49,8 +49,6 @@ Reference the SVG as an image
 	}
 </style>
 <img id="my_img" src="https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg" 
-	padding-left="10%"
-	padding-right="10%"
-	width="80% !important">
+	style="width:80% !important;padding-left:10%;padding-right:10%;">
 	
 
