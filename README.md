@@ -34,9 +34,9 @@ Creating a svg file to be converted into favicon
 ### External SVG
 
 There are several ways to include a SVG file:
-	<img>
-	<object>
-	<iframe>
+    - <img>
+    - <object>
+    - <iframe>
 		
 #### Reference the SVG as an object
 
@@ -45,7 +45,8 @@ There are several ways to include a SVG file:
 <object id="my_obj" data="https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.svg" type="image/svg+xml">
 </object>
 
-Reference the SVG as an image
+#### Reference the SVG as an image
+
 <style>
 	#my_img {
 		width: 80%;
