@@ -47,4 +47,4 @@ Reference the SVG as an image
 		align="center";
 	}
 </style>
-<img id="my_img" src="https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg">
+<img id="my_img" src="https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg" width="80% !important">
