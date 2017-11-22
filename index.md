@@ -9,6 +9,8 @@ Creating a svg file to be converted into favicon
 
 ### Internal SVG
 
+The SVG displayed below we see an inline svg with style inline the svg tags.
+
 <svg id="my_svg"
   version="1.1" 
   xmlns="http://www.w3.org/2000/svg" 
@@ -17,9 +19,11 @@ Creating a svg file to be converted into favicon
 	viewBox="0 0 260 260" 
   style="background-color: darkgoldenrod;" 
   xml:space="preserve">
+<!--
 <defs>
-<style type="text/css"> @import url("m2vh_favicon.css")</style>
+<style type="text/css"> @import url("https://rawgit.com/M2vH/favicon/master/m2vh_favicon.css")</style>
 </defs>
+-->
 <style type="text/css">
 	#my_svg_text {
 		fill: orange;
@@ -31,6 +35,26 @@ Creating a svg file to be converted into favicon
 		fill: green;
 		}
 </style>
+
+<rect id="my_svg_rect" x="5" y="5" width="250" height="250"/>  
+
+<text id="my_svg_text" x="130" y="175">M2vH</text>	
+
+</svg>
+
+The SVG displayed below we see an inline svg with reference to external CSS.
+
+<svg id="my_svg"
+  version="1.1" 
+  xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink" 
+  x="0px" y="0px"
+	viewBox="0 0 260 260" 
+  style="background-color: darkgoldenrod;" 
+  xml:space="preserve">
+<defs>
+<style type="text/css"> @import url("https://rawgit.com/M2vH/favicon/master/m2vh_favicon.css")</style>
+</defs>
 
 <rect id="my_svg_rect" x="5" y="5" width="250" height="250"/>  
 
