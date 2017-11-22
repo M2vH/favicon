@@ -2,3 +2,13 @@
 #my_svg_text {
   fill: green;
 }
+
+	#my_text { 
+		fill: orange;
+		font-size: 90px;
+	}
+
+	#my_rect {
+		fill: green;
+	}
+	
