@@ -48,11 +48,9 @@ Reference the SVG as an image
 		padding-right: 10%;
 	}
 </style>
-<img 
-	id="my_img" 
-	src="https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg" 
+<img id="my_img" src="https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg" 
 	width="80% !important"
-	padding-left="10% !important"
-	padding-right="10% !important">
+	padding-left="10%"
+	padding-right="10%">
 	
 
