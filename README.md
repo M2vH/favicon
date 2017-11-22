@@ -25,6 +25,8 @@ The inline svg with inline css style definitions.
 	#my_svg_text {
 		fill: orange;
 		font-size: 90px;
+		text-anchor: middle;
+		alignment-baseline: central;
 		}
 	#my_svg_rect {
 		fill: green;
