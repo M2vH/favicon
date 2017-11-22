@@ -44,7 +44,7 @@ Reference the SVG as an image
 ```html
 <style>
 	#my_img {
-		width="80%";
+		width: 80%;
 		padding-left: 10%;
 		padding-right: 10%;
 	}
