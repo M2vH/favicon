@@ -42,7 +42,7 @@ There are several ways to include a SVG file:
 
 <!-- https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.svg -->
 <!-- https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg -->
-<object id="my_obj" data="https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svgg" type="image/svg+xml">
+<object id="my_obj" data="https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg" type="image/svg+xml">
 </object>
 
 #### Reference the SVG as an image
@@ -54,9 +54,7 @@ There are several ways to include a SVG file:
 		padding-right: 10%;
 	}
 </style>
-<div style="width:80%;padding-left:10%;">
 <img id="my_img" src="https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg" >
-</div>
 <!-- 
 style="width:80% !important;padding-left:10%;padding-right:10%;"
 -->	
