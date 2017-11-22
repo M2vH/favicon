@@ -17,17 +17,22 @@ Creating a svg file to be converted into favicon
 	viewBox="0 0 260 260" 
   style="background-color: darkgoldenrod;" 
   xml:space="preserve">
+<defs>
 <style type="text/css"> @import url("m2vh_favicon.css")</style>
-
-<style>
+</defs>
+<style type="text/css">
 	#my_svg_text {
 		fill: orange;
-	}
+		}
+	#my_svg_rect {
+		fill: #808020;
+		}
 </style>
 
-<rect id="my_rect" x="5" y="5" width="250" height="250" style="background-color:green;"/>  
+<rect id="my_svg_rect" x="5" y="5" width="250" height="250"/>  
 
 <text id="my_svg_text" x="10" y="130">M2vH</text>	
+
 </svg>
 
 ### External SVG
