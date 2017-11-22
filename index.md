@@ -23,9 +23,10 @@ Creating a svg file to be converted into favicon
 <style type="text/css">
 	#my_svg_text {
 		fill: orange;
+		font-size: 90px;
 		}
 	#my_svg_rect {
-		fill: #808020;
+		fill: green;
 		}
 </style>
 
