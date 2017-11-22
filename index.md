@@ -1,13 +1,14 @@
 ---
 permalink: index.html
 ---
+
 # favicon
 
 Creating a svg file to be converted into favicon
 
-## Display a SVG
+# Display a SVG
 
-### Internal SVG
+## Internal SVG
 
 The SVG displayed below shows an inline svg with style inline the svg tags.
 
@@ -64,21 +65,23 @@ The SVG displayed below shows an inline svg with reference to external CSS.
 
 </svg>
 
-### External SVG
+---
+
+## External SVG
 
 There are several ways to include a SVG file:  
     - \<img>  
     - \<object>  
     - \<iframe>  
 		
-#### Reference the SVG as an object
+## Reference the SVG as an object
 
 <!-- https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.svg -->
 <!-- https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg -->
 <object id="my_obj" data="https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg" type="image/svg+xml">
 </object>
 
-#### Reference the SVG as an image
+## Reference the SVG as an image
 
 <style>
 	#my_img {
