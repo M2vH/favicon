@@ -9,7 +9,7 @@ We can display a SVG file as internal or external SVG
 
 The inline svg with inline css style definitions.
 
-```html
+```xml
 <svg id="my_svg"
   version="1.1" 
   xmlns="http://www.w3.org/2000/svg" 
