@@ -19,12 +19,21 @@
 -->	
 <defs>
 <style type="text/css"> 
-	@import url("https://rawgit.com/M2vH/favicon/master/m2vh_favicon.css")
+	#my_text { 
+		fill: orange;
+		font-size: 90px;
 	}
+
+	#my_rect {
+		fill: green;
+	}
+	
+	@import url("https://rawgit.com/M2vH/favicon/master/m2vh_favicon.css")
+	
 </style>
 </defs>
 	
-<rect id="my_rect" x="0" y="0" width="260" height="260"/>  
+<rect id="my_rect" x="5" y="5" width="250" height="250"/>  
 
 <!--
 	<text id="my_text" x="10" y="130" style="fill:orange;font-size:90px;">M2vH</text>
