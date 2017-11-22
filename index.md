@@ -9,7 +9,7 @@ Creating a svg file to be converted into favicon
 
 ### Internal SVG
 
-<svg 
+<svg id="my_svg"
   version="1.1" 
   xmlns="http://www.w3.org/2000/svg" 
   xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -17,12 +17,10 @@ Creating a svg file to be converted into favicon
 	viewBox="0 0 260 260" 
   style="background-color: darkgoldenrod;" 
   xml:space="preserve">
-<!-- not working 
-<style type="text/css"> @import url("https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.css")</style>
--->
+<style type="text/css"> @import url("m2vh_favicon.css")</style>
 
 <style>
-	#my_text {
+	#my_svg_text {
 		fill: orange;
 	}
 </style>
@@ -31,7 +29,7 @@ Creating a svg file to be converted into favicon
 <rect id="my_rect" x="0" y="0" width="260" height="260" style="background-color:green;"/>  
 -->
 
-<text id="my_text" x="10" y="130">M2vH</text>	
+<text id="my_svg_text" x="10" y="130">M2vH</text>	
 </svg>
 
 ### External SVG
