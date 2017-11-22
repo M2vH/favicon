@@ -25,7 +25,7 @@ The SVG displayed below we see an inline svg with style inline the svg tags.
 </defs>
 -->
 <style type="text/css">
-	#my_svg_text {
+	#my_svg_text_inline {
 		fill: orange;
 		font-size: 90px;
 		text-anchor: middle;
@@ -38,7 +38,7 @@ The SVG displayed below we see an inline svg with style inline the svg tags.
 
 <rect id="my_svg_rect" x="5" y="5" width="250" height="250"/>  
 
-<text id="my_svg_text" x="130" y="175">M2vH</text>	
+<text id="my_svg_text_inline" x="130" y="175">M2vH</text>	
 
 </svg>
 
