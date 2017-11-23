@@ -40,13 +40,16 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 		fill: green;
 		}
 	.pre-batman {
-		font-family: 'batman'
+		font-family: 'batman';
+		font-size: 7.5vw;
+		transform: scale(1,1.3);
+		transform-origin: center;
 	}
 </style>
 
 <rect id="my_svg_rect" x="5" y="5" width="250" height="250"/>  
 
-<text class="pre-batman" id="my_svg_text_inline" x="130" y="175">M2vH</text>	
+<text class="pre-batman" id="my_svg_text_inline" x="133" y="175">M2vH</text>	
 
 </svg>
 
