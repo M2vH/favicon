@@ -32,10 +32,14 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 	}
 	#my_svg_text_inline {
 		fill: orange;
-		font-size: 90px;
 		text-anchor: middle;
 		alignment-baseline: central;
 		}
+<!--
+#my_svg_text_inline {
+		font-size: 90px;
+	}
+-->
 	#my_svg_rect {
 		fill: green;
 		}
