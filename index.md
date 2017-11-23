@@ -28,7 +28,7 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 <style type="text/css">	
 	@font-face {
 		font-family: 'batman';
-		src: "/assets/fonts/batmfafont.ttf" format("truetype");
+		src: "./assets/fonts/batmfafont.ttf" format("truetype");
 	}
 	#my_svg_text_inline {
 		fill: orange;
