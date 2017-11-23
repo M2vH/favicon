@@ -33,6 +33,7 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 	#my_svg_text_inline {
 		fill: orange;
 		text-anchor: middle;
+		font-size: 90px;
 		alignment-baseline: central;
 		}
 <!--
@@ -45,10 +46,14 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 		}
 	.pre-batman {
 		font-family: 'batman';
-		font-size: 7.5vw;
 		transform: scale(1,1.3);
 		transform-origin: center;
 	}
+<!--
+.pre-batman {
+		font-size: 7.5vw;
+	}
+-->
 </style>
 
 <rect id="my_svg_rect" x="5" y="5" width="250" height="250"/>  
