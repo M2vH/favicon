@@ -26,6 +26,10 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 </defs>
 -->
 <style type="text/css">	
+	@font-face {
+		font-family: 'batman';
+		src: url("https://github.com/M2vH/mysite/blob/gh-pages/assets/fonts/batmfafont.ttf") format("truetype");
+	}
 	#my_svg_text_inline {
 		fill: orange;
 		font-size: 90px;
@@ -36,13 +40,13 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 		fill: green;
 		}
 	.pre-batman {
-		
+		font-family: 'batman'
 	}
 </style>
 
 <rect id="my_svg_rect" x="5" y="5" width="250" height="250"/>  
 
-<text class="batman" id="my_svg_text_inline" x="130" y="175">M2vH</text>	
+<text class="pre-batman" id="my_svg_text_inline" x="130" y="175">M2vH</text>	
 
 </svg>
 
