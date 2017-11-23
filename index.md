@@ -66,8 +66,8 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 
 <text class="pre-batman" id="my_svg_text_inline" x="134" y="110">M2vH</text>	
 <text class="batman" id="my_svg_name_inline" x="134" y="170" dy="0">
-	<tspan x="134">bat</tspan>
-	<tspan dy="1.1em" x="134" dx="12">man</tspan>
+	<tspan dx="12" x="134">batbat</tspan>
+	<tspan dy="1.1em" x="134" dx="12">man man man</tspan>
 </text>
 </svg>
 
