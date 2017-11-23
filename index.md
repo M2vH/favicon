@@ -25,7 +25,7 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 <style type="text/css"> @import url("https://rawgit.com/M2vH/favicon/master/m2vh_favicon.css")</style>
 </defs>
 -->
-<style type="text/css">
+<style type="text/css">	
 	#my_svg_text_inline {
 		fill: orange;
 		font-size: 90px;
@@ -35,11 +35,14 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 	#my_svg_rect {
 		fill: green;
 		}
+	.pre-batman {
+		
+	}
 </style>
 
 <rect id="my_svg_rect" x="5" y="5" width="250" height="250"/>  
 
-<text id="my_svg_text_inline" x="130" y="175">M2vH</text>	
+<text class="pre-batman" id="my_svg_text_inline" x="130" y="175">M2vH</text>	
 
 </svg>
 
