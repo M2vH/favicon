@@ -69,7 +69,19 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 <text class="robin heroes" id="my_svg_name_robin" x="134" y="5em">robin</text>
 </svg>
 <br/>
-
+<div id="button">
+<script>
+  function test(){
+    var test = document.getElementById('my_svg_name_batman_2').innerHtml;
+    if (test == "test"){
+      test="batman";
+    } else {
+      test="test";
+    }
+  }
+</script>
+	<button onClick=test()>Test it</button>
+</div>
 
 ---
 
