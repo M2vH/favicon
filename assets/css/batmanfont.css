@@ -1,0 +1,12 @@
+/* grep the batman fonts and create a family */
+/* Hide this for inline css 
+@font-face {
+		font-family: 'batman';
+		src: url("assets/fonts/batmfafont.ttf") format("truetype");
+	}
+  */
+@font-face {
+  font-family: 'batman outline';
+	src: url("assets/fonts/batmfofont.ttf") format("truetype");
+}
+
