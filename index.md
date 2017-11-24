@@ -85,9 +85,9 @@ The SVG displayed below shows an inline svg with reference to external CSS.
   style="background-color: darkgoldenrod;" 
   xml:space="preserve">
 <defs>
-	<!--
+
 <style type="text/css"> @import url("https://rawgit.com/M2vH/favicon/master/m2vh_favicon.css")</style>
--->
+
 </defs>
 
 <rect class="my_svg_rect" id="rect_2" x="5" y="5" width="250" height="250"/>  
