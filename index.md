@@ -11,7 +11,7 @@ Creating a svg file to be converted into favicon
 ## Internal SVG
 
 The SVG displayed below shows an inline svg with style inline the svg tags.
-
+<!-- SAMPLE 1 -->
 <svg id="my_svg"
   version="1.1" 
   xmlns="http://www.w3.org/2000/svg" 
@@ -73,6 +73,7 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 
 ---
 
+<!-- SAMPLE 2 -->
 <!-- Now we display an inline .svg with external .css that is linked with relative path -->
 The SVG displayed below shows an inline svg with reference to external CSS.
 
