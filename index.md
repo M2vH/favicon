@@ -113,8 +113,9 @@ There are several ways to include a SVG file:
 ## Reference the SVG as an object
 
 <!-- https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.svg -->
+<!-- WORKING -->
 <!-- https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg -->
-<object id="my_obj" data="https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg" type="image/svg+xml">
+<object id="my_obj" data="https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.svg" type="image/svg+xml">
 </object>
 
 ## Reference the SVG as an image
