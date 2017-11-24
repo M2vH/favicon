@@ -22,7 +22,7 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
   xml:space="preserve">
 <!--
 <defs>
-<style type="text/css"> @import url("https://rawgit.com/M2vH/favicon/master/m2vh_favicon.css")</style>
+<style type="text/css"> @import url("m2vh_favicon.css")</style>
 </defs>
 -->
 <style type="text/css">	
@@ -86,7 +86,7 @@ The SVG displayed below shows an inline svg with reference to external CSS.
   xml:space="preserve">
 <defs>
 
-<style type="text/css"> @import url("https://rawgit.com/M2vH/favicon/master/m2vh_favicon.css")</style>
+<style type="text/css"> @import url("m2vh_favicon.css")</style>
 
 </defs>
 
