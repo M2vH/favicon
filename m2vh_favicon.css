@@ -1,12 +1,16 @@
 /* UNDER DEVELOPMENT */
 /* m2vh_favicon.svg will reference to this file */
 
+/* get the batman css */
+@import url("assets/css/batmanfont.css")
+
 /* Create font-face 'batman outline' */
+/* WORKING
 @font-face {
   font-family: 'batman outline';
   src: url("assets/fonts/batmfofont.ttf") format("truetype");
 }
-
+*/
 
 /* Set color/font-family of text (so we will be seen) */
 #my_svg_text_inline_2 {
