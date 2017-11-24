@@ -1,6 +1,7 @@
 ---
 layout: default
 titel: Description
+permalink: pages/desc.html
 ---
 ## How to display a SVG
 
