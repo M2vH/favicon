@@ -73,7 +73,7 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 
 ---
 
-
+<!-- Now we display an inline .svg with external .css that is linked with relative path -->
 The SVG displayed below shows an inline svg with reference to external CSS.
 
 <svg id="my_svg"
@@ -88,13 +88,17 @@ The SVG displayed below shows an inline svg with reference to external CSS.
 <style type="text/css"> @import url("https://rawgit.com/M2vH/favicon/master/m2vh_favicon.css")</style>
 </defs>
 
-<rect id="my_svg_rect" x="5" y="5" width="250" height="250"/>  
+<rect id="my_svg_rect_2" x="5" y="5" width="250" height="250"/>  
 
-<text id="my_svg_text" x="130" y="175">M2vH</text>	
-
+<text class="pre-batman" id="my_svg_text_inline_2" x="134" y="110">M2vH</text>	
+<text class="batman heroes" id="my_svg_name_batman_2" x="134" y="4em">batman</text>
+<text class="robin heroes" id="my_svg_name_robin_2" x="134" y="5em">robin</text>
 </svg>
+<br/>
+
 
 ---
+
 
 ## External SVG
 
