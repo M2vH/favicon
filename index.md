@@ -54,7 +54,7 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 		font-size: 7.5vw;
 	}
 -->
-.batman {
+.heroes {
 	font-size: 48px;
 	text-anchor: middle;
 	fill: #133b1a;
@@ -65,12 +65,10 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 <rect id="my_svg_rect" x="5" y="5" width="250" height="250"/>  
 
 <text class="pre-batman" id="my_svg_text_inline" x="134" y="110">M2vH</text>	
-<text class="batman" id="my_svg_name_inline" x="134" y="170" dy="0">
-	<tspan dx="12" x="134">batman</tspan>
-	<tspan dy="1.1em" x="134" dx="12">forever</tspan>
-</text>
+<text class="batman heroes" id="my_svg_name_batman" x="134" y="170">batman</text>
+<text class="robin heroes" id="my_svg_name_robin" x="134" y="190">robin</text>
 </svg>
-
+<br/>
 ---
 
 The SVG displayed below shows an inline svg with reference to external CSS.
