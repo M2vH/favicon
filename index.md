@@ -64,7 +64,7 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 
 <rect class="my_svg_rect" id="rect_1" x="5" y="5" width="250" height="250"/>  
 
-<text class="pre-batman" id="my_svg_text_inline" x="134" y="110">M2vH</text>	
+<text class="pre-batman my_svg_text_inline" id="my_svg_text_inline_1" x="134" y="110">M2vH</text>	
 <text class="batman heroes" id="my_svg_name_batman" x="134" y="4em">batman</text>
 <text class="robin heroes" id="my_svg_name_robin" x="134" y="5em">robin</text>
 </svg>
