@@ -1,20 +1,23 @@
+/* UNDER DEVELOPMENT */
 /* m2vh_favicon.svg will reference here */
-#my_svg_text {
+
+#my_svg_text_inline_2 {
 	fill: red;
+}
+
+/*
+#my_svg_text_inline_2 {
 	font-size: 90px;
 	text-anchor: middle;
 	alignment-baseline: central;
 
 }
-
-#my_text { 
-	fill: blue;
-	font-size: 90px;
-	text-anchor: middle;
-	alignment-baseline: central;
+*/
+#my_svg_name_batman_2 {
+	fill: #dddddd;
 }
-
-#my_rect {
-	fill: green;
-}
+/*
+#my_svg_name_batman_2 {
 	
+}
+*/
