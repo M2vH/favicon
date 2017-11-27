@@ -73,7 +73,7 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 <p>
 <div id="my_button_div">  
 	<p>
-	<button id=my_button type=button onclick="test()">Test it</button>
+	<button id='my_button' type='button' onclick="test()">Test it</button>
 	</p>
 	<script>
 	  function test(){
