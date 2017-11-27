@@ -60,6 +60,14 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 	fill: #133b1a;
 	font-weight: bold;
 }
+.my_input {
+	/* height: 2em; */
+	/* margin: 5px; */
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	background-color: inherit;
+	color: inherit;
+}
 </style>
 
 <rect class="my_svg_rect" id="rect_1" x="5" y="5" width="250" height="250"/>  
@@ -71,7 +79,7 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 <br/>
 <!-- SAMPLE 1; The button -->
 <p>
-<div id="my_button_div" style="text-align: center;"> 
+<div id="my_button_div" class='my_input'> 
   <form>
 	<p>
 		<input id="my_input_1" name="my_input_1" type="text" value='superman'/>
