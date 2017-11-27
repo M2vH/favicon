@@ -74,25 +74,29 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 <div id="my_button_div" style="text-align: center;"> 
   <form>
 	<p>
-		<input id="my_input_1" name="my_input_1" type="text" value='superman'>
-		<input id="my_input_2" name="my_input_2" type="text" value='supergirl'>
+		<input id="my_input_1" name="my_input_1" type="text" value='superman'/>
+		<input id="my_input_2" name="my_input_2" type="text" value='supergirl'/>
 		</p>
 	<p>
 	<button id="my_button_do" type="button" onclick='my_test()'>Change it!</button>
-	<button id="my_button_reset" type="reset" >Reset</button>
+	<button id="my_button_reset" type="reset" onclick='return my_reset();'>Reset</button>
 	</p>
 	</form>
   <script>
-	  function my_test(){
+	  var temp_1 = my_text_1.innerHTML;
+	  var temp_2 = my_text_2.innerHTML;
+	function my_test(){
 	    var my_newtext_1 = document.getElementById('my_input_1');
 	    var my_newtext_2 = document.getElementById('my_input_2');
   	    var my_text_1 = document.getElementById('my_svg_name_batman');
   	    var my_text_2 = document.getElementById('my_svg_name_robin');
-	    my_text_1.innerHTML = my_newtext_1.value;
+	  my_text_1.innerHTML = my_newtext_1.value;
 	    my_text_2.innerHTML = my_newtext_2.value;
-	  <!--
 	    my_newtext_1.value,my_newtext_2.value = '';
--->
+	  }
+	  function my_reset(){
+	  	document.getElementById('my_svg_name_batman').innerHTML=temp_1;
+		document.getElementById('my_svg_name_robin').innerHTML=temp_2;	  
 	  }
 	</script>
 </div></p>
