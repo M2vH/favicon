@@ -80,7 +80,7 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
     }
   }
 </script>
-	<button type=button onclick=test()>Test it</button>
+	<button type=button onclick="test()">Test it</button>
 </div>
 
 ---
