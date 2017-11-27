@@ -102,7 +102,7 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 	<p>
 	<button id="my_button_do" type="button" onclick='my_test()'>Change it!</button>
 	<button id="my_button_reset" type="reset" onclick='return my_reset();'>Reset</button>
-	<button id="my_button_dl" type="button" onclick='download('test.txt', 'Hello Download!');'>Download</button>
+	<button id="my_button_dl" type="button" onclick='download("test.txt", "Hello Download!")'>Download</button>
 	</p>
 	</form>
   <script>
