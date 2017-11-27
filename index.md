@@ -102,6 +102,7 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 	<p>
 	<button id="my_button_do" type="button" onclick='my_test()'>Change it!</button>
 	<button id="my_button_reset" type="reset" onclick='return my_reset();'>Reset</button>
+	<button id="my_button_dl" type="button" onclick='download('test.txt', 'Hello Download!');'>Download</button>
 	</p>
 	</form>
   <script>
@@ -120,6 +121,22 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 		document.getElementById('my_svg_name_robin').innerHTML='robin';	  
 	  }
 	</script>
+	<!-- Generate a .svg-Download -->
+<script>
+function download(filename, text) {
+ 	var pom = document.createElement('a');
+ 	pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+ 	pom.setAttribute('download', filename);
+	if (document.createEvent) {
+        	var event = document.createEvent('MouseEvents');
+        	event.initEvent('click', true, true);
+        	pom.dispatchEvent(event);
+	}
+    	else {
+        	pom.click();
+    	}
+}
+</script>
 </div></p>
 ---
 
