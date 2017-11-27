@@ -70,22 +70,23 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 </svg>
 <br/>
 
+<p>
 <div id="my_button_div">  
-
-<button id=my_button type=button onclick="test()">Test it</button>
-<script>
-  function test(){
-    var test = document.getElementById('my_svg_name_batman').innerHtml;
-    if (test == "test"){
-      test="batman";
-    } else {
-      test="test";
-    }
-  }
-</script>
-	
+	<p>
+	<button id=my_button type=button onclick="test()">Test it</button>
+	</p>
+	<script>
+	  function test(){
+	    var test = document.getElementById('my_svg_name_batman').innerHtml;
+	    if (test == "test"){
+	      test="batman";
+	    } else {
+	      test="test";
+	    }
+	  }
+	</script>
 </div>
-
+</p>
 ---
 
 <!-- SAMPLE 2 -->
