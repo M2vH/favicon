@@ -73,15 +73,15 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 <p>
 <div id="my_button_div">  
 	<p>
-	<button id='my_button' type='button' onclick="test()">Test it</button>
+	<button id='my_button' type='button' onclick="my_test()">Test it</button>
 	</p>
 	<script>
-	  function test(){
-	    var test = document.getElementById('my_svg_name_batman').innerHtml;
-	    if (test == "test"){
-	      test="batman";
+	  function my_test(){
+	    var my_text = window.top.getElementById('my_svg_name_batman').innerHtml;
+	    if (text == "test"){
+	      text="batman";
 	    } else {
-	      test="test";
+	      text="test";
 	    }
 	  }
 	</script>
