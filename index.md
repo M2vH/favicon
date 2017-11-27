@@ -84,7 +84,8 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 	  function my_test(){
 	    var my_newtext = document.getElementById('my_input');
       var my_text = document.getElementById('my_svg_name_batman');
-	    my_text.innerHTML = my_newtext.innerHTML;
+	    my_text.innerHTML = my_newtext.value;
+	  my_newtext.value = 'ändern';
 	  }
 	</script>
 </div></p>
