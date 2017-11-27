@@ -127,7 +127,7 @@ function download(filename) {
  	<!-- get the svg -->
 	var svg = document.getElementById('my_svg');
 	var pom = document.createElement('a');
- 	pom.setAttribute('href', 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg));
+ 	pom.setAttribute('href', 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg.outerHTML));
  	pom.setAttribute('download', filename);
 	if (document.createEvent) {
         	var event = document.createEvent('MouseEvents');
