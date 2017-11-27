@@ -69,8 +69,10 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 <text class="robin heroes" id="my_svg_name_robin" x="134" y="5em">robin</text>
 </svg>
 <br/>
-<div id="my_button">
-<button type=button onclick="test()">Test it</button>
+
+<div id="my_button_div">  
+
+<button id=my_button type=button onclick="test()">Test it</button>
 <script>
   function test(){
     var test = document.getElementById('my_svg_name_batman').innerHtml;
