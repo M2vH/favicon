@@ -72,7 +72,7 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 <div id="button">
 <script>
   function test(){
-    var test = document.getElementById('my_svg_name_batman_2').innerHtml;
+    var test = document.getElementById('my_svg_name_batman').innerHtml;
     if (test == "test"){
       test="batman";
     } else {
@@ -80,7 +80,7 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
     }
   }
 </script>
-	<button onClick=test()>Test it</button>
+	<button type=button onclick=test()>Test it</button>
 </div>
 
 ---
