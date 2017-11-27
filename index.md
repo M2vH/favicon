@@ -78,10 +78,10 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 	<script>
 	  function my_test(){
 	    var my_text = document.getElementById('my_svg_name_batman');
-	    if (text.innerHtml == "test"){
-	      text.innerHtml = "batman";
+	    if (my_text.innerHtml == "test"){
+	      my_text.innerHtml = "batman";
 	    } else {
-	      text.innerHtml = "test";
+	      my_text.innerHtml = "test";
 	    }
 	  }
 	</script>
