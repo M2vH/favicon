@@ -74,7 +74,9 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 <div id="my_button_div" style="text-align: center;"> 
   <form>
 	<p>
-		<input id="my_input_1" name="my_input_1" type="text" value='superman'/></br>
+		<input id="my_input_1" name="my_input_1" type="text" value='superman'/>
+	  </p>
+	  <p>
 		<input id="my_input_2" name="my_input_2" type="text" value='supergirl'/>
 		</p>
 	<p>
