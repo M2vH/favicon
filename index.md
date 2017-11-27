@@ -92,7 +92,8 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
   	    var my_text_2 = document.getElementById('my_svg_name_robin');
 	  my_text_1.innerHTML = my_newtext_1.value;
 	    my_text_2.innerHTML = my_newtext_2.value;
-	    my_newtext_1.value,my_newtext_2.value = '';
+	    my_newtext_1.value = '';
+	    my_newtext_2.value = '';
 	  }
 	  function my_reset(){
 	  	document.getElementById('my_svg_name_batman').innerHTML=temp_1;
