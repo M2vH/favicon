@@ -77,11 +77,11 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 	</p>
 	<script>
 	  function my_test(){
-	    var my_text = window.top.getElementById('my_svg_name_batman').innerHtml;
-	    if (text == "test"){
-	      text="batman";
+	    var my_text = document.getElementById('my_svg_name_batman');
+	    if (text.innerHtml == "test"){
+	      text.innerHtml = "batman";
 	    } else {
-	      text="test";
+	      text.innerHtml = "test";
 	    }
 	  }
 	</script>
