@@ -10,8 +10,10 @@
 <!-- ToDo: Link to external font -->
 <defs>
 <font id="BatmanForeverAlternate" horiz-adv-x="818">
-  <font-face 
+<!-- 
     font-family="BatmanForeverAlternate"
+-->
+<font-face 
     font-weight="400"
     font-stretch="normal"
     units-per-em="1000"
