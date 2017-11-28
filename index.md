@@ -12,7 +12,7 @@ Creating a svg file to be converted into favicon
 
 The SVG displayed below shows an inline svg with style inline the svg tags.
 <!-- SAMPLE 1 -->
-<svg id="my_svg"
+<svg id="my_svg_1"
   version="1.1" 
   xmlns="http://www.w3.org/2000/svg" 
   xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -91,7 +91,7 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 <br/>
 <!-- SAMPLE 1; The button -->
 <p>
-<div id="my_button_div" class='my_input'> 
+<div id="my_button_div_1" class='my_input'> 
   <form>
 	<p>
 		<input class="my_input" id="my_input_1" name="my_input_1" type="text" value='superman'/>
@@ -100,10 +100,12 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 		<input class="my_input" id="my_input_2" name="my_input_2" type="text" value='supergirl'/>
 		</p>
 	<p>
-	<button id="my_button_do" type="button" onclick='my_test()'>Change it!</button>
-	<button id="my_button_reset" type="reset" onclick='return my_reset();'>Reset</button>
-	<button id="my_button_dl" type="button" onclick='download("test.svg")'>Download</button>
-	</p>
+	<button id="my_button_do_1" type="button" onclick='my_test()'>Change it!</button>
+	<button id="my_button_reset_1" type="reset" onclick='return my_reset();'>Reset</button>
+<!-- NOT WORKING until we link font to CORS-Server
+<button id="my_button_dl" type="button" onclick='download("test.svg")'>Download</button>
+-->
+</p>
 	</form>
   <script>
 	function my_test(){
@@ -125,7 +127,7 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 <script>
 function download(filename) {
  	<!-- get the svg -->
-	var svg = document.getElementById('my_svg');
+	var svg = document.getElementById('my_svg_1');
 	var pom = document.createElement('a');
  	pom.setAttribute('href', 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg.outerHTML));
  	pom.setAttribute('download', filename);
@@ -141,12 +143,11 @@ function download(filename) {
 </script>
 </div></p>
 ---
-
-<!-- SAMPLE 2 -->
+<!-- SAMPLE 3 -->
 <!-- Now we display an inline .svg with external .css that is linked with relative path -->
 The SVG displayed below shows an inline svg with reference to external CSS.
 
-<svg id="my_svg"
+<svg id="my_svg_3"
   version="1.1" 
   xmlns="http://www.w3.org/2000/svg" 
   xmlns:xlink="http://www.w3.org/1999/xlink" 
