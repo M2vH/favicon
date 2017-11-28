@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg 
+  version="1.1" 
+  xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink" 
+  x="0px" y="0px"
+	viewBox="0 0 260 260" 
+  style="enable-background:new 0 0 260 260;" 
+  xml:space="preserve">
+<!-- ToDo: Link to external font -->
+<font>
+  <font-face font-family="BatmanForeverAlternate">
+    <font-face-src>
+      <font-face-uri xlink:href="https://github.com/M2vH/favicon/blob/gh-pages/assets/fonts/batmfafont.svg#BatmanForeverAlternate" />
+      <!--	
+      <font-face-uri xlink:href="fonts.svg#Super_Sans" />
+      -->
+    </font-face-src>
+  </font-face>
+</font>	
+<!-- https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.css -->	
+<style type="text/css"> <!-- @import url("m2vh_favicon.css") -->
+	#my_text { 
+		fill: orange;
+		font-size: 90px;
+  		text-anchor: middle;
+		font-family: 'BatmanForeverAlternate';
+	}
+	</style>
+<rect id="my_rect" x="0" y="0" width="260" height="260"/>  
+
+<text id="my_text" x="10" y="130">M2vH</text>
+</svg>
