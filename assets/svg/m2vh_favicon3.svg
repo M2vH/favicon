@@ -1,18 +1,30 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 260 260" style="enable-background:new 0 0 260 260;" xml:space="preserve">
 <!-- ToDo: Link to external font -->
 <defs>
-<font id="BatmanForeverAlternate" horiz-adv-x="818">
+<font id="batmanfafont" horiz-adv-x="818">
 <!-- 
     font-family="BatmanForeverAlternate"
 -->
-<font-face font-weight="400" font-stretch="normal" units-per-em="1000" panose-1="0 0 4 0 0 0 0 0 0 0" ascent="800" descent="-200" x-height="595" cap-height="595" bbox="-195 -132 1286 800" underline-thickness="20" underline-position="-143" unicode-range="U+0020-F000">
-    <font-face-src>
+<font-face 
+	   font-family="BatmanForeverAlternate"
+	   font-weight="400" 
+	   font-stretch="normal" 
+	   units-per-em="1000" 
+	   panose-1="0 0 4 0 0 0 0 0 0 0" 
+	   ascent="800" 
+	   descent="-200" 
+	   x-height="595" 
+	   cap-height="595" 
+	   bbox="-195 -132 1286 800" 
+	   underline-thickness="20" 
+	   underline-position="-143" 
+	   unicode-range="U+0020-F000">
+<!--
+	<font-face-src>
       	<font-face-uri xlink:href="batmfafont.ttf"/>
-	<!-- From the documentation:	
-	<font-face-uri xlink:href="fonts.svg#Super_Sans" />
-	-->
-    </font-face-src>
-  </font-face>
+	</font-face-src>
+ -->
+	</font-face>
 <!-- start the glyphs -->	
 <missing-glyph horiz-adv-x="500" d="M63 0v800h375v-800h-375zM125 63h250v675h-250v-675z"/>
 <glyph glyph-name="two" unicode="2" horiz-adv-x="835" d="M758 7h-756l-2 181l130 174h390l42 54l-42 49h-389l-131 132h624l134 -181l-130 -174h-407l-41 -52v-52h446z"/>	
@@ -26,7 +38,7 @@
 	<!-- source the inline font -->
 	@font-face {
 		font-family: "BatmanForeverAlternate";
-		src: url(./batmfafo.ttf);
+		src: url(#batmanfafont);
 	}
 	#my_text { 
 		fill: orange;
