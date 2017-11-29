@@ -1,0 +1,42 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 260 260" style="enable-background:new 0 0 260 260;" xml:space="preserve">
+<!-- ToDo: Link to external font -->
+<defs>
+<font id="BatmanForeverAlternate" horiz-adv-x="818">
+<!-- 
+    font-family="BatmanForeverAlternate"
+-->
+<font-face font-weight="400" font-stretch="normal" units-per-em="1000" panose-1="0 0 4 0 0 0 0 0 0 0" ascent="800" descent="-200" x-height="595" cap-height="595" bbox="-195 -132 1286 800" underline-thickness="20" underline-position="-143" unicode-range="U+0020-F000">
+    <font-face-src>
+      	<font-face-uri xlink:href="batmfafont.ttf"/>
+	<!-- From the documentation:	
+	<font-face-uri xlink:href="fonts.svg#Super_Sans" />
+	-->
+    </font-face-src>
+  </font-face>
+<!-- start the glyphs -->	
+<missing-glyph horiz-adv-x="500" d="M63 0v800h375v-800h-375zM125 63h250v675h-250v-675z"/>
+<glyph glyph-name="two" unicode="2" horiz-adv-x="835" d="M758 7h-756l-2 181l130 174h390l42 54l-42 49h-389l-131 132h624l134 -181l-130 -174h-407l-41 -52v-52h446z"/>	
+<glyph glyph-name="M" unicode="M" horiz-adv-x="1012" d="M912 6h-178v377l-221 -304h-115l-220 304v-377l-178 -102v691h201l255 -351l254 351h202v-589z"/>
+<glyph glyph-name="v" unicode="v" horiz-adv-x="876" d="M806 595l-320 -589h-166l-320 589h182l221 -403l221 403h182z"/>
+<glyph glyph-name="H" unicode="H" horiz-adv-x="809" d="M708 5h-178v235h-352v-235l-178 -101v691h178v-235h352v235h178v-590z"/>
+<hkern u1="v" u2="H" k="61"/>
+</font>	
+<!-- https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.css -->	
+<style xmlns="http://www.w3.org/2000/svg" type="text/css"> <!-- @import url("m2vh_favicon.css") -->
+	<!-- source the inline font -->
+	@font-face {
+		font-family: "BatmanForeverAlternate";
+		src: url(./batmfafo.ttf);
+	}
+	#my_text { 
+		fill: orange;
+		font-size: 90px;
+  		text-anchor: middle;
+		font-family: 'BatmanForeverAlternate';
+	}
+</style>
+</defs>
+<rect id="my_rect" x="0" y="0" width="260" height="260"/>  
+
+<text id="my_text" x="130" y="130">M2vH</text>
+</svg>
