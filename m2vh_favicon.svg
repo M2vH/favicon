@@ -15,6 +15,7 @@
 <style type="text/css"> 
 	@import url("https://rawgit.com/M2vH/favicon/gh-pages/m2vh_favicon.css")
 	
+	/*
 	@font-face {
 		font-family: 'Batman Forever Alternate';
 		src: url('https://svgfont.azureedge.net/testfonts/batmanfont/batmfafont.ttf') format('truetype');
@@ -22,7 +23,7 @@
 	
 	#my_text { 
 		fill: orange;
-		font-size: 90px;
+		font-size: 70px;
 		text-anchor: middle;
 		font-family: 'Batman Forever Alternate';
 	}
@@ -30,7 +31,7 @@
 	#my_rect {
 		fill: green;
 	}
-
+*/
 
 </style>
 
