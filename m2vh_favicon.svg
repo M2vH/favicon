@@ -13,7 +13,12 @@
 	
 <defs>
 <style type="text/css"> 
-
+	<!-- /*
+	@import url("https://rawgit.com/M2vH/favicon/gh-pages/m2vh_favicon.css")
+	*/  -->
+	
+	
+	
 	#my_text { 
 		fill: orange;
 		font-size: 90px;
@@ -25,7 +30,6 @@
 		fill: green;
 	}
 
-	@import url("https://rawgit.com/M2vH/favicon/gh-pages/m2vh_favicon.css")
 
 </style>
 
