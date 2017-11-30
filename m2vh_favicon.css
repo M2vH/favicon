@@ -36,3 +36,22 @@
 	
 }
 */
+
+/* 
+	We have a CORS-ready CDN - god bless Microsoft ;-)
+*/
+@font-face {
+	font-family: "BatmanForeverAlternate";
+	src: url(https://svgfont.azureedge.net/testfonts/batmanfont/batmfafont.ttf);
+}
+
+#my_text { 
+	fill: orange;
+	font-size: 90px;
+	text-anchor: middle;
+	font-family: 'BatmanForeverAlternate';
+}
+
+#my_rect {
+	fill: green;
+}
