@@ -46,12 +46,13 @@
 }
 
 #my_text { 
-	fill: orange;
-	font-size: 90px;
+	fill: #a1155f;
+	font-size: 70px;
 	text-anchor: middle;
+	transform: scale(1,1.8);
 	font-family: 'BatmanForeverAlternate';
 }
 
 #my_rect {
-	fill: green;
+	fill: #d40df3;
 }
