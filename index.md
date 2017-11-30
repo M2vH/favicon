@@ -63,10 +63,13 @@ The SVG displayed below shows an inline svg with style inline the svg tags.
 #my_button_div {
 	text-align: center;
 }
+.my_input {
+	text-align: center;
+	}
 .my_input input{
 	/* height: 2em; */
 	/* margin: 5px; */
-	text-align: center;
+	/* text-align: center; */
 	padding: 5px 5px 5px 5px;
 	background-color: inherit;
 	color: inherit;
