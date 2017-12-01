@@ -248,4 +248,4 @@ We reference to our SVG using `<embed>`.
 	}
 </style>
 <!-- make sure to grep from the correct branch -->
-<img id="my_img" src="https://rawgit.com/M2vH/favicon/gh-pages/m2vh_favicon.svg" >
+<img id="my_img" src="https://rawgit.com/M2vH/favicon/gh-pages/m2vh_favicon.svg" />
