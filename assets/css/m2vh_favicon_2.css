@@ -13,7 +13,7 @@
 /*
   src: url("https://svgfont.azureedge.net/testfonts/batmanfont/batmfofont.ttf") format("truetype");
 */
-	src: "https://raw.githubusercontent.com/M2vH/favicon/gh-pages/assets/fonts/batmfofont.ttf";
+	src: url("https://raw.githubusercontent.com/M2vH/favicon/gh-pages/assets/fonts/batmfofont.ttf");
 }
 
 
