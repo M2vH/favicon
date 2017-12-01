@@ -193,7 +193,19 @@ There are several ways to include a SVG file:
 		
 ## Reference the SVG as an object
 
-We simply reference to our SVG using the rawgit service.
+We reference to our SVG using the raw.githubusercontent href.
+
+<!-- NOT Working -->
+<!-- https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.svg -->
+
+<!-- WORKING -->
+<!-- https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg -->
+<object id="my_obj" data="https://raw.githubusercontent.com/M2vH/favicon/gh-pages/m2vh_favicon.svg" type="image/svg+xml">
+</object>
+
+---
+
+We reference to our SVG using the rawgit service.
 
 <!-- NOT Working -->
 <!-- https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.svg -->
