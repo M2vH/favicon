@@ -167,7 +167,7 @@ The SVG displayed below shows an inline svg with reference to a CSS file. This C
 <defs>
 
 <style type="text/css"> 
-	@import url("assets/css/m2vh_favicon_2.css")
+	@import url("/assets/css/m2vh_favicon_2.css")
 </style>
 
 </defs>
