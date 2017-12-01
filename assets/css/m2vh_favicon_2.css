@@ -1,0 +1,58 @@
+/* UNDER DEVELOPMENT */
+/* Sample 2 will reference to this file */
+
+/* get the batman css */
+/* NOT WORKING 
+@import url("assets/css/batmanfont.css")
+*/
+
+/* Create font-face 'batman outline' */
+
+@font-face {
+  font-family: 'batman outline';
+  src: url("assets/fonts/batmfofont.ttf") format("truetype");
+}
+
+
+/* Set color/font-family of text (so we will be seen) */
+#my_svg_text_inline_2 {
+	fill: #dddddd;
+  font-family: 'batman outline';
+}
+
+/*
+#my_svg_text_inline_2 {
+	font-size: 90px;
+	text-anchor: middle;
+	alignment-baseline: central;
+
+}
+*/
+#my_svg_name_batman_2 {
+	fill: #dddddd;
+}
+/*
+#my_svg_name_batman_2 {
+	
+}
+*/
+
+/* 
+	We have a CORS-ready CDN - god bless Microsoft ;-)
+*/
+@font-face {
+	font-family: "BatmanForeverAlternate";
+	src: url(https://svgfont.azureedge.net/testfonts/batmanfont/batmfafont.ttf);
+}
+
+#my_text { 
+	fill: #a1155f;
+	font-size: 70px;
+	text-anchor: middle;
+	transform: scale(1,1.8);
+	font-family: 'BatmanForeverAlternate';
+}
+
+#my_rect {
+	fill: #d40df3;
+}
