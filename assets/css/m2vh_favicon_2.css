@@ -17,7 +17,7 @@
 /* Set color/font-family of text (so we will be seen) */
 #my_svg_text_inline_2 {
 	fill: #dddddd;
-  font-family: 'batman outline' !important;
+  font-family: batman outline;
 }
 
 /*
