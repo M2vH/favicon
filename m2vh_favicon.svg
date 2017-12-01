@@ -24,6 +24,7 @@
 	#my_text { 
 		fill: orange;
 		font-size: 70px;
+		transform: scale(1,1.8);
 		text-anchor: middle;
 		font-family: 'Batman Forever Alternate';
 	}
