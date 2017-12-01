@@ -149,6 +149,7 @@ function download(filename) {
 ---
 
 <!-- SAMPLE 2 -->
+Sample 2
 ## Inline SVG with relative CSS inside the same repository
 <!-- Now we display an inline .svg with external .css that is linked with relative path -->
 The SVG displayed below shows an inline svg with reference to a CSS file. This CSS is located relative to the SVG, but still inside the same repo.
@@ -164,7 +165,7 @@ The SVG displayed below shows an inline svg with reference to a CSS file. This C
 <defs>
 
 <style type="text/css"> 
-	@import url("m2vh_favicon_2.css")
+	@import url("assets/css/m2vh_favicon_2.css")
 </style>
 
 </defs>
