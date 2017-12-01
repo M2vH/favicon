@@ -190,22 +190,27 @@ There are several ways to include a SVG file:
     - \<img>  
     - \<object>  
     - \<iframe>  
-		
-## Reference the SVG as an object
-
-We reference to our SVG using the raw.githubusercontent href.
-
-<!-- NOT Working -->
-<!-- https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.svg -->
-
-<!-- WORKING -->
-<!-- https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg -->
-<object id="my_obj" data="https://raw.githubusercontent.com/M2vH/favicon/gh-pages/m2vh_favicon.svg" type="image/svg+xml">
-</object>
 
 ---
 
-We reference to our SVG using the rawgit service.
+Sample 3
+
+## Reference the SVG as an object
+
+We reference to our SVG using the raw.githubusercontent href. This is NOT working.
+
+<!-- NOT Working -->
+<!-- https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.svg -->
+<!--
+<object id="my_obj" data="https://raw.githubusercontent.com/M2vH/favicon/gh-pages/m2vh_favicon.svg" type="image/svg+xml">
+</object>
+-->
+<!-- WORKING -->
+<!-- https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg -->
+
+---
+
+We reference to our SVG using the rawgit service. Inside the SVG the font is imported from an external source.
 
 <!-- NOT Working -->
 <!-- https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.svg -->
