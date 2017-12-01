@@ -145,7 +145,9 @@ function download(filename) {
 }
 </script>
 </div></p>
+
 ---
+
 <!-- SAMPLE 3 -->
 <!-- Now we display an inline .svg with external .css that is linked with relative path -->
 The SVG displayed below shows an inline svg with reference to external CSS.
@@ -160,7 +162,9 @@ The SVG displayed below shows an inline svg with reference to external CSS.
   xml:space="preserve">
 <defs>
 
-<style type="text/css"> @import url("m2vh_favicon.css")</style>
+<style type="text/css"> 
+	@import url("m2vh_favicon.css")
+</style>
 
 </defs>
 
@@ -185,6 +189,8 @@ There are several ways to include a SVG file:
 		
 ## Reference the SVG as an object
 
+We simply reference to our SVG using the rawgit service.
+
 <!-- NOT Working -->
 <!-- https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.svg -->
 
@@ -192,6 +198,9 @@ There are several ways to include a SVG file:
 <!-- https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg -->
 <object id="my_obj" data="https://rawgit.com/M2vH/favicon/gh-pages/m2vh_favicon.svg" type="image/svg+xml">
 </object>
+
+---
+
 
 ## Reference the SVG as an image
 
@@ -202,4 +211,5 @@ There are several ways to include a SVG file:
 		padding-right: 10%;
 	}
 </style>
-<img id="my_img" src="https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg" >
+<!-- make sure to grep from the correct branch -->
+<img id="my_img" src="https://rawgit.com/M2vH/favicon/gh-pages/m2vh_favicon.svg" >
