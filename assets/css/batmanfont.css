@@ -1,16 +1,18 @@
 /* grep the batman fonts and create a family */
-/* grep from more than one src... */
-/* to make it work in different locations. */
 
 @font-face {
 	font-family: 'batman filled';
 	src: url("assets/fonts/batmfafont.ttf") format("truetype");
+/*
 	src: url("batmfafont.ttf") format("truetype");
+*/
 }
 
 @font-face {
 	font-family: 'batman outline';
 	src: url("assets/fonts/batmfofont.ttf") format("truetype");
+/*
 	src: url("batmfofont.ttf") format("truetype");
+*/
 }
 
