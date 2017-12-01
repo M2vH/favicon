@@ -229,14 +229,12 @@ We reference to our SVG using `<embed>`.
 
 <!-- NOT Working -->
 <!-- https://raw.githubusercontent.com/M2vH/favicon/master/m2vh_favicon.svg -->
-<embed id="my_embed" src="https://raw.githubusercontent.com/M2vH/favicon/gh-pages/m2vh_favicon.svg" type="image/svg+xml">
-</embed>
+<embed id="my_embed" src="https://raw.githubusercontent.com/M2vH/favicon/gh-pages/m2vh_favicon.svg" type="image/svg+xml"/>
 
 ---
 
 <!-- Using rawgit -->
-<embed id="my_embed" src="https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg" type="image/svg+xml">
-</embed>
+<embed id="my_embed" src="https://rawgit.com/M2vH/favicon/master/m2vh_favicon.svg" type="image/svg+xml"/>
 
 ---
 
