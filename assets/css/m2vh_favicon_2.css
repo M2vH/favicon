@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'batman outline';
-  src: url("/assets/fonts/batmfofont.ttf") format("truetype");
+  src: url("../../fonts/batmfofont.ttf") format("truetype");
 }
 
 
