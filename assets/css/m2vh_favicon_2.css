@@ -9,7 +9,7 @@
 /* Create font-face 'batman outline' */
 
 @font-face {
-  font-family: 'batman outline';
+  font-family: "batman outline";
   src: url("https://github.com/M2vH/favicon/blob/gh-pages/assets/fonts/batmfafont.ttf?raw=true") format("truetype");
 }
 
@@ -17,7 +17,7 @@
 /* Set color/font-family of text (so we will be seen) */
 #my_svg_text_inline_2 {
 	fill: #dddddd;
-  font-family: batman outline;
+  font-family: "batman outline";
 }
 
 /*
