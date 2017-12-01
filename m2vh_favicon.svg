@@ -19,6 +19,7 @@
 	@font-face {
 		font-family: 'Batman Forever Alternate';
 		src: url('https://svgfont.azureedge.net/testfonts/batmanfont/batmfafont.ttf') format('truetype');
+		src: url('https://raw.githubusercontent.com/M2vH/favicon/gh-pages/assets/fonts/batmfafont.ttf') format('truetype');
 	}
 	
 	#my_text { 
