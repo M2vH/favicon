@@ -100,6 +100,7 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 	<p>
 	<button id="my_button_do_1" type="button" onclick='my_test()'>Change it!</button>
 	<button id="my_button_reset_1" type="reset" onclick='return my_reset();'>Reset</button>
+		</p>
 <!-- NOT WORKING until we link font to CORS-Server
 <button id="my_button_dl" type="button" onclick='download("test.svg")'>Download</button>
 -->
@@ -139,8 +140,7 @@ function download(filename) {
 }
 </script>
 </div></p>
-</div>
-</p>
+
 
 ---  
 
@@ -225,7 +225,7 @@ We reference to our SVG using the rawgit service. Inside the SVG the font is imp
 
 ## Reference the SVG with the embed tag
 
-We reference to our SVG using '\<embed>'-tag.
+We reference to our SVG using 'embed'-tag.
 
 <!-- NOT Working -->
 <!-- https://raw.githubusercontent.com/M2vH/favicon/gh-pages/m2vh_favicon.svg -->
