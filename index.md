@@ -10,7 +10,7 @@ Creating a svg file to be converted into favicon
 
 ## Add it as an internal '\<svg>'-tag
 
-The SVG displayed below shows an inline svg with style-tags inline the svg tags. We link the font of "M2vH" with a path which is relative to the root of this site. The other typo is the Open Font 'Roboto Condensed'.
+The SVG displayed below shows an inline svg with style-tags inline the svg tags. We link the font of "Clan-Tag" with a path which is relative to the root of this site. The other typo is the Open Font 'Roboto Condensed'.
 
 	/* path/to/font */
 	src: url("assets/fonts/batmfafont.ttf") format("truetype");
@@ -40,7 +40,7 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 	text-anchor: middle;
 	font-size: 70px;
 	font-family: 'batman outline';
-	-webkit-transform-origin: top; 
+	-webkit-transform-origin: top center; 
 	-webkit-transform: scale(1.3,2.3); 
 }
 .my_svg_rect {
