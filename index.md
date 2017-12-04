@@ -145,8 +145,7 @@ function download(filename) {
 <hr>
 <!-- SAMPLE 2 -->
 
-Sample 2
-
+Sample 2  
 ## Inline SVG with relative CSS inside the same repository
 
 <!-- Now we display an inline .svg with external .css that is linked with relative path -->
