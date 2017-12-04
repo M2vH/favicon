@@ -142,8 +142,7 @@ function download(filename) {
 </div></p>
 
 
----  
-
+<hr>
 <!-- SAMPLE 2 -->
 
 Sample 2
@@ -179,7 +178,7 @@ The SVG displayed below shows an inline svg with reference to a CSS file. This C
 <br/>
 
 
----
+<hr>
 
 
 ## External SVG
@@ -191,7 +190,7 @@ There are several ways to include a SVG file:
 	<img>  
 ```
 
----
+<hr>
 
 Sample 3
 
