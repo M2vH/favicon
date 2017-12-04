@@ -168,9 +168,9 @@ The SVG displayed below shows an inline svg with reference to a CSS file. This C
 
 </defs>
 
-<rect class="my_svg_rect" id="rect_2" x="5" y="5" width="250" height="250"/>  
+<rect class="my_svg_rect" id="my_svg_rect_2" x="5" y="5" width="250" height="250"/>  
 
-<text class="pre-batman my_svg_text_inline" id="my_svg_text_inline_2" x="134" y="110">M2vH</text>	
+<text class="pre-batman my_svg_text_inline" id="my_svg_text_inline_2" x="133" y="50">LMG</text>	
 <text class="batman heroes" id="my_svg_name_batman_2" x="131" y="4em">batman</text>
 <text class="robin heroes" id="my_svg_name_robin_2" x="131" y="5em">robin</text>
 </svg>
