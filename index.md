@@ -63,8 +63,8 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 <br/>
 <!-- SAMPLE 1; The button -->
 <p>
-<div>
-<style>
+	<div>
+	<style>
 #my_button_div {
 	text-align: center;
 	font-family: "";
@@ -140,6 +140,7 @@ function download(filename) {
 </script>
 </div></p>
 </div>
+</p>
 
 ---  
 
