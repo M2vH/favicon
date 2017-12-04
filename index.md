@@ -12,10 +12,8 @@ Creating a svg file to be converted into favicon
 
 The SVG displayed below shows an inline svg with style-tags inline the svg tags. We link the font of "M2vH" with a path which is relative to the root of this site. The other typo is the Open Font 'Roboto Condensed'.
 
-	```css
 	/* path/to/font */
 	src: url("assets/fonts/batmfafont.ttf") format("truetype");
-	```
 	
 <!-- SAMPLE 1 -->
 <svg id="my_svg_1"
@@ -32,35 +30,22 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 </defs>
 -->
 <style type="text/css">	
-	@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
-	@font-face {
-		font-family: 'batman';
-		src: url("assets/fonts/batmfafont.ttf") format("truetype");
-	}
-	.my_svg_text_inline_1 {
-		fill: orange;
-		text-anchor: middle;
-		font-size: 70px;
-		}
-<!--
-#my_svg_text_inline {
-		font-size: 90px;
-		alignment-baseline: central;
-	}
--->
-	.my_svg_rect {
-		fill: green;
-		}
-	.pre-batman {
-		font-family: 'batman';
-		transform: scale(1,1.8);
-		transform-origin: center;
-	}
-<!--
-.pre-batman {
-		font-size: 7.5vw;
-	}
--->
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@font-face {
+	font-family: 'batman';
+	src: url("assets/fonts/batmfafont.ttf") format("truetype");
+}
+.my_svg_text_inline {
+	fill: orange;
+	text-anchor: middle;
+	font-size: 70px;
+	font-family: 'batman';
+	transform: scale(1,1.8);
+	transform-origin: center;
+}
+.my_svg_rect {
+	fill: green;
+}
 .heroes {
 	font-size: 48px;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -69,9 +54,7 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 	font-weight: bold;
 }
 </style>
-
 <rect class="my_svg_rect" id="rect_1" x="5" y="5" width="250" height="250"/>  
-
 <text class="pre-batman my_svg_text_inline" id="my_svg_text_inline_1" x="134" y="110">M2vH</text>	
 <text class="batman heroes" id="my_svg_name_batman" x="131" y="4em">batman</text>
 <text class="robin heroes" id="my_svg_name_robin" x="131" y="5em">robin</text>
