@@ -223,7 +223,7 @@ We reference to our SVG using the rawgit service. Inside the SVG the font is imp
 
 ## Reference the SVG with the embed tag
 
-We reference to our SVG using `<embed>`.
+We reference to our SVG using '\<embed>'-tag.
 
 <!-- NOT Working -->
 <!-- https://raw.githubusercontent.com/M2vH/favicon/gh-pages/m2vh_favicon.svg -->
@@ -239,11 +239,19 @@ We reference to our SVG using `<embed>`.
 ## Reference the SVG as an image
 
 <style>
-	#my_img {
+	.my_img {
 		width: 80%;
 		padding-left: 10%;
 		padding-right: 10%;
 	}
 </style>
 <!-- make sure to grep from the correct branch -->
-<img id="my_img" src="https://rawgit.com/M2vH/favicon/gh-pages/m2vh_favicon.svg" />
+First we reference from `rawgit`,...
+
+<img class="my_img" id="my_img_1" src="https://rawgit.com/M2vH/favicon/gh-pages/m2vh_favicon.svg" />
+
+---
+
+...second we reference relative inside our repository.
+
+<img class="my_img" id="my_img_2" src="m2vh_favicon.svg" />
