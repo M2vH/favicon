@@ -103,8 +103,7 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 <!-- NOT WORKING until we link font to CORS-Server
 <button id="my_button_dl" type="button" onclick='download("test.svg")'>Download</button>
 -->
-</p>
-	</form>
+</form>
   <script>
 	function my_test(){
 	    var my_newtext_1 = document.getElementById('my_input_1');
@@ -246,7 +245,7 @@ We reference to our SVG using '\<embed>'-tag.
 	}
 </style>
 <!-- make sure to grep from the correct branch -->
-First we reference from `rawgit`,...
+First we reference from 'rawgit',...
 
 <img class="my_img" id="my_img_1" src="https://rawgit.com/M2vH/favicon/gh-pages/m2vh_favicon.svg" />
 
