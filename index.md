@@ -32,16 +32,16 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 <style type="text/css">	
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 @font-face {
-	font-family: 'batman';
-	src: url("assets/fonts/batmfafont.ttf") format("truetype");
+	font-family: 'batman outline';
+	src: url("assets/fonts/batmfofont.ttf") format("truetype");
 }
 .my_svg_text_inline {
 	fill: orange;
 	text-anchor: middle;
 	font-size: 70px;
-	font-family: 'batman';
-	-webkit-transform: scale(1,1.8); 
-	/* -webkit-transform-origin: center; */
+	font-family: 'batman outline';
+	-webkit-transform-origin: top; 
+	-webkit-transform: scale(1.3,2.3); 
 }
 .my_svg_rect {
 	fill: green;
@@ -55,7 +55,7 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 }
 </style>
 <rect class="my_svg_rect" id="rect_1" x="5" y="5" width="250" height="250"/>  
-<text class="pre-batman my_svg_text_inline" id="my_svg_text_inline_1" x="133" y="50">M2vH</text>	
+<text class="pre-batman my_svg_text_inline" id="my_svg_text_inline_1" x="133" y="50">LMG</text>	
 <text class="batman heroes" id="my_svg_name_batman" x="131" y="4em">batman</text>
 <text class="robin heroes" id="my_svg_name_robin" x="131" y="5em">robin</text>
 </svg>
