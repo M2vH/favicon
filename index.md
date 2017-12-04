@@ -40,8 +40,8 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 	text-anchor: middle;
 	font-size: 70px;
 	font-family: 'batman';
-	-webkit-transform: scale(1,1.8);
-	-webkit-transform-origin: center;
+	-webkit-transform: scale(1,1.8); 
+	/* -webkit-transform-origin: center; */
 }
 .my_svg_rect {
 	fill: green;
@@ -51,11 +51,11 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 	font-family: 'Roboto Condensed', sans-serif;
 	text-anchor: middle;
 	fill: #133b1a;
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 </style>
 <rect class="my_svg_rect" id="rect_1" x="5" y="5" width="250" height="250"/>  
-<text class="pre-batman my_svg_text_inline" id="my_svg_text_inline_1" x="134" y="110">M2vH</text>	
+<text class="pre-batman my_svg_text_inline" id="my_svg_text_inline_1" x="133" y="50">M2vH</text>	
 <text class="batman heroes" id="my_svg_name_batman" x="131" y="4em">batman</text>
 <text class="robin heroes" id="my_svg_name_robin" x="131" y="5em">robin</text>
 </svg>
