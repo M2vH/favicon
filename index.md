@@ -181,9 +181,11 @@ The SVG displayed below shows an inline svg with reference to a CSS file. This C
 ## External SVG
 
 There are several ways to include a SVG file:  
-    - \<img>  
-    - \<object>  
-    - \<iframe>  
+```html
+	<object>  
+	<embed>  
+	<img>  
+```
 
 ---
 
