@@ -40,7 +40,7 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 	text-anchor: middle;
 	font-size: 70px;
 	font-family: 'batman outline';
-	-webkit-transform-origin: top center; 
+	-webkit-transform-origin: 130px 0px; 
 	-webkit-transform: scale(1.3,2.3); 
 }
 .my_svg_rect {
