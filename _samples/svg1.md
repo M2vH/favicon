@@ -12,7 +12,7 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 
 	```css
 	/* path/to/font */
-	src: url("assets/fonts/batmfafont.ttf") format("truetype");
+	src: url("/favicon/assets/fonts/batmfofont.ttf") format("truetype");
 	```
 
 <!-- The SVG -->
@@ -29,7 +29,7 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 @font-face {
 	font-family: 'batman outline';
-	src: url("assets/fonts/batmfofont.ttf") format("truetype");
+	src: url("/favicon/assets/fonts/batmfofont.ttf") format("truetype");
 }
 .my_svg_text_inline {
 	fill: orange;
