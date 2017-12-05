@@ -1,6 +1,7 @@
 ---
 layout: default
-titel: Description
+title: My title
+description: A brief description.
 permalink: mypages/desc.html
 ---
 ## How to display a SVG
