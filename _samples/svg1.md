@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to include a SVG-graphic into a HTML-site
-description: 'Add it as an internal 'svg'-tag'
+description: Add it as an internal svg-tag
 permalink: samples/svg1.html
 ---
 ## Sample 1
