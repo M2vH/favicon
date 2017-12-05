@@ -2,7 +2,7 @@
 markdown: kramdown
 theme: jekyll-theme-hacker
 
-Customize the theme
+# Customize the theme
 title: A SVG Site
 
 show_downloads: false
@@ -10,3 +10,24 @@ show_downloads: false
 # My SEO
 # ToDo: Create new GA-ID
 google_analytics: UA-61449151-2
+
+# My collections
+collections:
+  samples:
+  output: true
+  
+# Layout Settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      author: "Marco M. von Hagen"
+      codename: "m2vh"
+      
+      
+ # Hide the READMEs
+ exclude:
+  - */README.md
