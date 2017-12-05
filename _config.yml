@@ -1,7 +1,6 @@
 # Site Settings
 title: A SVG Site
 
-
 # Build Settings
 markdown: kramdown
 theme: jekyll-theme-hacker
@@ -9,9 +8,7 @@ theme: jekyll-theme-hacker
 gems:
   - jekyll-mentions
 
-
 # Customize the theme
-
 show_downloads: false
 
 # My SEO
@@ -34,7 +31,6 @@ defaults:
       author: "Marco M. von Hagen"
       codename: "m2vh"
       
-      
- # Hide the READMEs
- exclude:
+# Hide the READMEs
+exclude:
   - */README.md
