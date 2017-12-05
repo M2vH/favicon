@@ -9,7 +9,7 @@ permalink: samples/breaking-jekyll.html
 Using '' in front matter
 
 	```markdown
-	---
-  	description: 'text' 
-  	---
+		---
+  		description: 'text' 
+  		---
 	```
