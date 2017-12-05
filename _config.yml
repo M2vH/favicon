@@ -2,6 +2,10 @@
 markdown: kramdown
 theme: jekyll-theme-hacker
 
+gems:
+  - jekyll-mentions
+
+
 # Customize the theme
 title: A SVG Site
 
