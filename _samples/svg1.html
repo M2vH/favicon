@@ -1,18 +1,22 @@
 ---
 layout: default
-title: How to include a SVG-graphic into a HTML-site
-description: Add it as an internal svg-tag
+title: Sample 1
+description: Internal svg-tag
 permalink: samples/svg1.html
 ---
-## Sample 1
+## Add it as an internal svg-tag
 
 The SVG displayed below shows an inline svg with style-tags inline the svg tags. We link the font of the "Clan-Tag" with a path which is relative to the root of this site. The other typo is the Open Font 'Roboto Condensed'.
 
-<code>
-	/* path/to/font */
-	src: url("/favicon/assets/fonts/batmfofont.ttf") format("truetype");
-</code>
-
+<div class="highlight">
+	<pre class="highlight">
+        <code>
+        /* .css */
+	    /* path/to/font */
+	    src: url("/favicon/assets/fonts/batmfofont.ttf") format("truetype");
+        </code>
+    </pre>
+</div>
 <!-- The SVG -->
 <svg id="my_svg_1"
   version="1.1" 
