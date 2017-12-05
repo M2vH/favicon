@@ -139,7 +139,5 @@ function download(filename) {
 }
 </script>
 </div>
-</p>
-
 
 <hr>
