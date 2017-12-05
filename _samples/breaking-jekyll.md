@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CAUTION!
+title: CAUTION
 description: This will wreak the layout.
 permalink: samples/breaking-jekyll.html
 ---
