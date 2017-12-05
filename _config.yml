@@ -36,3 +36,10 @@ defaults:
 # Hide the READMEs
 exclude:
   - "/*/README.md"
+
+# My SASS
+# Bootstrap v3.3.7
+
+sass:
+  style: :compressed
+  
