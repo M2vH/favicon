@@ -9,6 +9,7 @@ The created variables are imported in `assets/css/myvariables`.
 
 ```jekyll
 /* assets/css/myvariables */
+
   ---
   ---
   @import "myvariables"
