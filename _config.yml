@@ -1,1 +1,12 @@
+# Build Settings
+markdown: kramdown
 theme: jekyll-theme-hacker
+
+Customize the theme
+title: A SVG Site
+
+show_downloads: false
+
+# My SEO
+# ToDo: Create new GA-ID
+google_analytics: UA-61449151-2
