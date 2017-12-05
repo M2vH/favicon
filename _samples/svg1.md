@@ -1,19 +1,19 @@
 ---
 permalink: samples/svg1.html
-layout: default
 title: How to include a SVG-graphic into a HTML-site
 description: 'Add it as an internal '<svg>'-tag'
 ---
 
+<!-- layout: default -->
+
 # Sample 1
 
-The SVG displayed below shows an inline svg with style-tags inline the svg tags. We link the font of the "Clan-Tag" 
-    with a path which is relative to the root of this site. The other typo is the Open Font 'Roboto Condensed'.
+The SVG displayed below shows an inline svg with style-tags inline the svg tags. We link the font of the "Clan-Tag" with a path which is relative to the root of this site. The other typo is the Open Font 'Roboto Condensed'.
 
 	/* path/to/font */
 	src: url("assets/fonts/batmfafont.ttf") format("truetype");
 
-
+<!-- The SVG -->
 <svg id="my_svg_1"
   version="1.1" 
   xmlns="http://www.w3.org/2000/svg" 
@@ -22,11 +22,7 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 	viewBox="0 0 260 260" 
   style="background-color: darkgoldenrod;" 
   xml:space="preserve">
-<!--
-<defs>
-<style type="text/css"> @import url("m2vh_favicon.css")</style>
-</defs>
--->
+<!-- The STYLE -->
 <style type="text/css">	
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 @font-face {
@@ -59,10 +55,11 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 <text class="robin heroes" id="my_svg_name_robin" x="131" y="5em">robin</text>
 </svg>
 <br/>
-<!-- SAMPLE 1; The button -->
+<!-- The BUTTON -->
 <p>
-	<div>
-	<style>
+<div>
+<!-- BUTTON STYLE -->
+<style>
 #my_button_div {
 	text-align: center;
 	font-family: "";
@@ -87,6 +84,7 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 	color: inherit;
 }
 </style>
+<!-- BUTTON DIV -->
 <div id="my_button_div_1" class='my_input'> 
   <form>
 	<p>
@@ -103,6 +101,8 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 <button id="my_button_dl" type="button" onclick='download("test.svg")'>Download</button>
 -->
 </form>
+</div> <!-- #my_button_div_1 -->
+<div>
   <script>
 	function my_test(){
 	    var my_newtext_1 = document.getElementById('my_input_1');
@@ -119,7 +119,8 @@ The SVG displayed below shows an inline svg with style-tags inline the svg tags.
 		document.getElementById('my_svg_name_robin').innerHTML='robin';	  
 	  }
 	</script>
-	<!-- Generate a .svg-Download -->
+
+<!-- Generate a .svg-Download -->
 <script>
 function download(filename) {
  	<!-- get the svg -->
@@ -137,7 +138,8 @@ function download(filename) {
     	}
 }
 </script>
-</div></p>
+</div>
+</p>
 
 
 <hr>
