@@ -4,7 +4,7 @@ permalink: samples/svg1.html
 title: How to include a SVG-graphic into a HTML-site
 description: 'Add it as an internal 'svg'-tag'
 ---
-# Sample 1
+## Sample 1
 
 The SVG displayed below shows an inline svg with style-tags inline the svg tags. We link the font of the "Clan-Tag" with a path which is relative to the root of this site. The other typo is the Open Font 'Roboto Condensed'.
 
