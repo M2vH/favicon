@@ -18,7 +18,7 @@ google_analytics: UA-61449151-2
 # My collections
 collections:
   samples:
-  output: true
+    output: true
   
 # Layout Settings
 defaults:
