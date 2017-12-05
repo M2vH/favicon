@@ -33,4 +33,4 @@ defaults:
       
 # Hide the READMEs
 exclude:
-  - */README.md
+  - "/*/README.md"
