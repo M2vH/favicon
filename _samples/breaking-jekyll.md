@@ -8,8 +8,8 @@ permalink: samples/breaking-jekyll.html
 
 Using '' in front matter
 
-	```markdown
-		---
-  		description: 'text' 
-  		---
+	```jekyll
+	---
+  	description: 'text' 
+  	---
 	```
