@@ -1,3 +1,15 @@
-h2 {
+/* Modification of Hacker theme using Bootstrap */
+/* This file is imported in favicon/assets/css/style.scss */
+
+/* Headline are green */
+h1, .h1, h2, .h2, h3, .h3 {
   color: #b5e853 !important;
+}
+
+body {
+  color: #d7d7d7 !important;
+}
+
+code {
+  color: #323131 !important;
 }
