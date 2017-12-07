@@ -8,18 +8,8 @@ permalink: samples/svg2.html
 
 The SVG displayed below shows an inline svg with style-tags inline the svg tags. We link the font of the "Clan-Tag" with a path which is relative to the root of this site. The other typo is the Open Font 'Roboto Condensed'.
 
-<div class="highlight">
-<pre class="highlight">
-<code>/* .css */
-/* path/to/font */
-
-src: url("/favicon/assets/fonts/batmfofont.ttf") format("truetype");
-</code>
-</pre>
-</div>
-
 <div>
-	<!-- test the jekyll highlight -->
+<!-- test the jekyll highlight -->
 {% highlight css lineos %}
 /* .css */
 /* path/to/font */
