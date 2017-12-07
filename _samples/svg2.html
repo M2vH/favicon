@@ -1,0 +1,167 @@
+---
+layout: default
+title: Sample 2
+description: Internal svg using Jekyll blocks
+permalink: samples/svg2.html
+---
+<h2>Add it as an internal svg-tag</h2>
+
+The SVG displayed below shows an inline svg with style-tags inline the svg tags. We link the font of the "Clan-Tag" with a path which is relative to the root of this site. The other typo is the Open Font 'Roboto Condensed'.
+
+<div class="highlight">
+<pre class="highlight">
+<code>/* .css */
+/* path/to/font */
+
+src: url("/favicon/assets/fonts/batmfofont.ttf") format("truetype");
+</code>
+</pre>
+</div>
+
+<!-- The SVG -->
+<svg id="my_svg_1"
+  version="1.1" 
+  xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink" 
+  x="0px" y="0px"
+	viewBox="0 0 260 260" 
+  style="background-color: darkgoldenrod;" 
+  xml:space="preserve">
+<!-- The STYLE -->
+<style type="text/css">	
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@font-face {
+	font-family: 'batman outline';
+	src: url("/favicon/assets/fonts/batmfofont.ttf") format("truetype");
+	src: url(https://svgfont.azureedge.net/testfonts/batmanfont/batmfofont.ttf) format("truetype");
+}
+.my_svg_text_inline {
+	fill: orange;
+	font-size: 90px;
+	font-family: 'batman outline';
+	text-anchor: middle;
+	text-align: center;
+	-webkit-transform-origin: top center;
+	-webkit-transform: scale(1,1.5);
+}
+/*  
+	text-anchor: middle;
+	-webkit-transform-origin: top center; 
+	-webkit-transform: scale(1.3, 2.3); 
+
+.my_svg_text_inline {
+	fill: orange;
+	font-size: 90px;
+	font-family: 'batman outline';
+	text-anchor: middle;
+	text-align: center;
+	-webkit-transform: scale(1,1.5);
+}
+	
+	*/
+
+.my_svg_rect {
+	fill: green;
+}
+.heroes {
+	font-size: 48px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-anchor: middle;
+	fill: #133b1a;
+	/* font-weight: bold; */
+}
+</style>
+<rect class="my_svg_rect" id="rect_1" x="5" y="5" width="250" height="250"/>  
+<text class="pre-batman my_svg_text_inline" id="my_svg_text_inline_1" x="133" y="70" height="90">LMG</text>	
+<text class="batman heroes" id="my_svg_name_batman" x="131" y="4em">batman</text>
+<text class="robin heroes" id="my_svg_name_robin" x="131" y="5em">robin</text>
+</svg>
+<!-- END SVG -->
+<br/>
+<!-- The INPUT & BUTTON -->
+<div>
+<!-- style INPUT & BUTTON -->
+<style>
+#my_button_div {
+	text-align: center;
+	font-family: "";
+}
+.my_input {
+	text-align: center;
+	}
+.my_input input{
+	/* height: 2em; */
+	/* margin: 5px; */
+	/* text-align: center; */
+	padding: 5px 5px 5px 5px;
+	background-color: inherit;
+	color: inherit;
+}
+.my_input button{
+	/* height: 2em; */
+	/* margin: 5px; */
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	background-color: inherit;
+	color: inherit;
+}
+</style>
+</div>
+<!-- BUTTON DIV -->
+<div id="my_button_div_1" class='my_input'> 
+  <form>
+	<p>
+		<input class="my_input form-control" id="my_input_1" name="my_input_1" type="text" value='superman'/>
+	  </p>
+	  <p>
+		<input class="my_input form-control" id="my_input_2" name="my_input_2" type="text" value='supergirl'/>
+		</p>
+	<p>
+	<button id="my_button_do_1" class="btn btn-default" type="button" onclick='my_test()'>Change it!</button>
+	<button id="my_button_reset_1" class="btn btn-default" type="reset" onclick='return my_reset();'>Reset</button>
+	<button id="my_button_dl" class="btn btn-default" type="button" onclick='download("test.svg")'>Download</button>
+		</p>
+<!-- NOT WORKING until we link font to CORS-Server
+<button id="my_button_dl" type="button" onclick='download("test.svg")'>Download</button>
+-->
+</form>
+</div> <!-- #my_button_div_1 -->
+<div>
+  <script>
+	function my_test(){
+	    var my_newtext_1 = document.getElementById('my_input_1');
+	    var my_newtext_2 = document.getElementById('my_input_2');
+  	    var my_text_1 = document.getElementById('my_svg_name_batman');
+  	    var my_text_2 = document.getElementById('my_svg_name_robin');
+ 	    my_text_1.innerHTML = my_newtext_1.value;
+	    my_text_2.innerHTML = my_newtext_2.value;
+	    my_newtext_1.value = '';
+	    my_newtext_2.value = '';
+	  }
+	  function my_reset(){
+	  	document.getElementById('my_svg_name_batman').innerHTML='batman';
+		document.getElementById('my_svg_name_robin').innerHTML='robin';	  
+	  }
+	</script>
+
+<!-- Generate a .svg-Download -->
+<script>
+function download(filename) {
+ 	<!-- get the svg -->
+	var svg = document.getElementById('my_svg_1');
+	var pom = document.createElement('a');
+ 	pom.setAttribute('href', 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg.outerHTML));
+ 	pom.setAttribute('download', filename);
+	if (document.createEvent) {
+        	var event = document.createEvent('MouseEvents');
+        	event.initEvent('click', true, true);
+        	pom.dispatchEvent(event);
+	}
+    	else {
+        	pom.click();
+    	}
+}
+</script>
+</div>
+
+<hr>
