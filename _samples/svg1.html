@@ -76,9 +76,9 @@ src: url("/favicon/assets/fonts/batmfofont.ttf") format("truetype");
 <text class="robin heroes" id="my_svg_name_robin" x="131" y="5em">robin</text>
 </svg>
 <br/>
-<!-- The BUTTON -->
+<!-- The INPUT & BUTTON -->
 <div>
-<!-- BUTTON STYLE -->
+<!-- style INPUT & BUTTON -->
 <style>
 #my_button_div {
 	text-align: center;
@@ -117,6 +117,7 @@ src: url("/favicon/assets/fonts/batmfofont.ttf") format("truetype");
 	<p>
 	<button id="my_button_do_1" class="btn btn-default" type="button" onclick='my_test()'>Change it!</button>
 	<button id="my_button_reset_1" class="btn btn-default" type="reset" onclick='return my_reset();'>Reset</button>
+	<button id="my_button_dl" type="button" onclick='download("test.svg")'>Download</button>
 		</p>
 <!-- NOT WORKING until we link font to CORS-Server
 <button id="my_button_dl" type="button" onclick='download("test.svg")'>Download</button>
