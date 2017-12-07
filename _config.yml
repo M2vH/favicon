@@ -21,6 +21,8 @@ collections:
     output: true
   mypages:
     output: true
+  blocks:
+    output: true
   
 # Layout Settings
 defaults:
