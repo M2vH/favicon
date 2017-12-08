@@ -1,3 +1,6 @@
+// This script is based on the work found here:
+// https://stackoverflow.com/a/21318963
+//
 // Takes an SVG element as target
 function svg_to_png_data(target) {
   var ctx, mycanvas, svg_data, img, child;
