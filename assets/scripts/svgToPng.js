@@ -6,8 +6,8 @@ function svg_to_png_data(target) {
   var ctx, mycanvas, svg_data, img, child;
 
   // Flatten CSS styles into the SVG
-  for (i = 0; i < target.childNodes.length; i++) {
-    child = target.childNodes[i];
+  for (i = 0; i < target.children.length; i++) {
+    child = target.children[i];
     var cssStyle = window.getComputedStyle(child);
     if(cssStyle){
        child.style.cssText = cssStyle.cssText;
@@ -15,8 +15,14 @@ function svg_to_png_data(target) {
   }
 
   // Construct an SVG image
-  svg_data = '<svg xmlns="http://www.w3.org/2000/svg" width="' + target.offsetWidth +
-             '" height="' + target.offsetHeight + '">' + target.innerHTML + '</svg>';
+  // we don't construct a SVG...
+  // svg_data = '<svg xmlns="http://www.w3.org/2000/svg" width="' + target.offsetWidth +
+  //            '" height="' + target.offsetHeight + '">' + target.innerHTML + '</svg>';
+  
+  // we have a SVG already!
+  svg_data = '<svg xmlns="http://www.w3.org/2000/svg" width="' + target.width.baseVal.value +
+            '" height="' + target.height.baseVal.value + '">' + target.innerHTML + '</svg>';
+  
   img = new Image();
   img.src = "data:image/svg+xml," + encodeURIComponent(svg_data);
 
