@@ -27,7 +27,7 @@ function svg_to_png_data(target) {
   //      child.style.cssText = cssStyle.cssText;
     applyStyle(child);
     }
-  }
+    // }    // End if
   
 
   // Construct an SVG image
