@@ -6,6 +6,8 @@
 // Found here: https://stackoverflow.com/questions/25097566/css-style-to-inline-style-via-javascript
 
 // delete this before upload:
+var robin = document.getelementById('my_svg_name_robin');
+var batman = document.getelementById('my_svg_name_batman');
 var myTarget = document.getElementsByTagName('svg')[0];
 var mySVGText = '<svg><rect class=\"my_svg_rect\" id=\"rect_1\" x=\"5\" y=\"5\" width=\"250\" height=\"250\"></rect> <text class=\"pre-batman my_svg_text_inline\" id=\"my_svg_text_inline_1\" x=\"133\" y=\"70\" height=\"90\">LMG</text> <text class=\"batman heroes\" id=\"my_svg_name_batman\" x=\"131\" y=\"4em\">batman</text> <text class=\"robin heroes\" id=\"my_svg_name_robin\" x=\"131\" y=\"5em\">robin</text></svg>'
 var xmlns = "http://www.w3.org/2000/svg";
@@ -41,16 +43,34 @@ function makeImage(xml){
 }
 
 // Put the computed CSS inline
-// Not needed
 function applyStyle(el) {
-  s = getComputedStyle(el);
-  for (var key in s) {
-    var property = key.replace(/\-([a-z])/g, function (v) {
-      return v[1].toUpperCase();
-    });
-    el.style[property] = s[key];
+//   Origin code:
+//   ----- -----
+//   s = getComputedStyle(el);
+//   for (var key in s) {
+//     var property = key.replace(/\-([a-z])/g, function (v) {
+//       return v[1].toUpperCase();
+//     });
+//     el.style[property] = s[key];
+//   }
+//   My code:
+//   ----- -----
+//   get style of element 
+  var elementStyle = window.getComputedStyle(el,null)
+  var len = elementStyle.length;
+  var myString = "";
+  
+  for (var i=0;i<len;i++){ 
+    var style = elementStyle[i]; 
+    myString += style +" : "+ elementStyle.getPropertyValue(style) + " ; "; 
   }
+//  element.style = myString
+  el.style = "";
+  el.style = myString;
 }
+
+
+
 
 // Takes an SVG element as target?
 
