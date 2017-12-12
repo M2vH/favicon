@@ -37,7 +37,7 @@ function makeImage(xml){
   myIMG.width = 600;
   myIMG.height = 250;
   myIMG.src = 'data:image/svg+xml;base64,' + window.btoa(unescape(encodeURIComponent(xml.outerHTML)));
-  document.body.appendChild(myIMG);
+  document.getElementById('script').appendChild(myIMG);
 }
 
 // Put the computed CSS inline
