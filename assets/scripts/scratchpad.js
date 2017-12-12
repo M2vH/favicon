@@ -6,6 +6,7 @@
 // Found here: https://stackoverflow.com/questions/25097566/css-style-to-inline-style-via-javascript
 
 // delete this before upload:
+var clan = document.getElementById('my_svg_text_inline_1');
 var robin = document.getElementById('my_svg_name_robin');
 var batman = document.getElementById('my_svg_name_batman');
 var myTarget = document.getElementsByTagName('svg')[0];
@@ -81,7 +82,7 @@ function svg_to_png_data(target) {
   img,
   child;
   // svg_data = target.innerHTML;
-  svg_data = target;
+  svg_data = target.outerHTML;
   img = new Image();
   img.src = 'data:image/svg+xml;base64,' + window.btoa(unescape(encodeURIComponent(svg_data)));
   // Draw the SVG image to a canvas
