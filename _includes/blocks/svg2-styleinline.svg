@@ -1,6 +1,6 @@
-<!-- <?xml version="1.0" standalone="no"?> -->
-<!-- <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"> -->
-<svg id="my_svg_1"
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="my_svg_2"
   version="1.1" 
   xmlns="http://www.w3.org/2000/svg" 
   xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -8,6 +8,8 @@
 	viewBox="0 0 260 260" 
   style="background-color: darkgoldenrod;" 
   xml:space="preserve">
+<!-- The DEFS -->
+<defs>
 <!-- The STYLE -->
 <style type="text/css">	
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
@@ -35,6 +37,7 @@
 	fill: #133b1a;
 }
 </style>
+</defs>
 <rect class="my_svg_rect" id="rect_1" x="5" y="5" width="250" height="250"/>  
 <text class="pre-batman my_svg_text_inline" id="my_svg_text_inline_1" x="133" y="70" height="90">LMG</text>	
 <text class="batman heroes" id="my_svg_name_batman" x="131" y="4em">batman</text>
