@@ -38,7 +38,7 @@
 }
 .heroes {
 	font-size: 48px;
-	font-family: 'Roboto Condensed', serif;
+	font-family: 'Roboto Condensed';
 	text-anchor: middle;
 	fill: #133b1a;
 }
