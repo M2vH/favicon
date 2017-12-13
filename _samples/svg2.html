@@ -3,10 +3,11 @@ layout: default
 title: Sample 2
 description: Internal svg using Jekyll blocks
 permalink: samples/svg2.html
+show: blocks/showHTML.html
 ---
 <h2>Look at the files</h2>
 <section id="showHTML">
-	{% include blocks/showHTML.html link="https://github.com/M2vH/favicon/edit/gh-pages/_samples/svg2.html" %}
+	{% include {{ page.show }} link="https://github.com/M2vH/favicon/edit/gh-pages/_samples/svg2.html" %}
 </section>
 <h2>Add it as an internal svg-tag</h2>
 
