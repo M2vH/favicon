@@ -35,7 +35,8 @@ mySVGElement.appendChild(myRect);
 
 // We test an encoded image
 var myIMG;
-function makeImage(xml){
+function makeImage(){
+  xml = myTarget;
   myIMG = new Image();
   myIMG.width = xml.width.baseVal.value;
   myIMG.height = xml.height.baseVal.value;
