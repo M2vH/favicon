@@ -37,8 +37,8 @@ mySVGElement.appendChild(myRect);
 var myIMG;
 function makeImage(xml){
   myIMG = new Image();
-  myIMG.width = 600;
-  myIMG.height = 250;
+  myIMG.width = xml.width.baseVal.value;
+  myIMG.height = xml.height.baseVal.value;
   myIMG.src = 'data:image/svg+xml;base64,' + window.btoa(unescape(encodeURIComponent(xml.outerHTML)));
   document.getElementById('script').appendChild(myIMG);
 }
