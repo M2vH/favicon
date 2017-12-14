@@ -44,6 +44,28 @@ function makeImage(){
   document.getElementById('script').appendChild(myIMG);
 }
 
+// We switch #script image to PNG
+function switchImage() {
+  //  initiate the vars
+  var mySection, myScriptImage, myCanvas, myCTX;
+  //  get the section
+  mySection = document.getElementById('script');
+  //  get the img
+  myScriptImage = mySection.getElementsByTagName('img')[0];
+  // create a canvas
+  myCanvas = document.createElement('canvas');
+  myCanvas.width = myScriptImage.width;
+  myCanvas.height = myScriptImage.height;
+  //  generate the Image
+  myCTX = myCanvas.getContext('2d');
+  myCTX.drawImage(myScriptImage, 0, 0);
+  
+  var img = new Image();
+  img.src = myCanvas.toDataURL('image/png');
+  
+  myScriptImage.parentNode.replaceChild(img, myScriptImage);
+}
+
 // Put the computed CSS inline
 function applyStyle(el) {
 //   Origin code:
