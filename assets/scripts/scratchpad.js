@@ -44,7 +44,14 @@ function makeImage(){
   document.getElementById('script').appendChild(myIMG);
 }
 
-// We switch #script image to PNG
+// We switch #script SVG image to PNG
+// NOT WORKING:
+// Firefox not drawing SVG.
+// Check here: 
+// https://github.com/cburgmer/rasterizeHTML.js/issues/194
+// https://jsfiddle.net/7v2ue7r2/12/
+// Workaround:
+// Put SVG image into css background!
 function switchImage() {
   //  initiate the vars
   var mySection, myScriptImage, myCanvas, myCTX;
@@ -56,7 +63,7 @@ function switchImage() {
   myCanvas = document.createElement('canvas');
   myCanvas.width = myScriptImage.width;
   myCanvas.height = myScriptImage.height;
-  //  generate the Image
+  //  create the context of canvas 
   myCTX = myCanvas.getContext('2d');
   myCTX.drawImage(myScriptImage, 0, 0);
   
