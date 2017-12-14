@@ -31,7 +31,9 @@ myRect.setAttributeNS(null, "width",590);
 myRect.setAttributeNS(null, "height",240);
 myRect.setAttributeNS(null, "fill","green");
 
-mySVGElement.appendChild(myRect);
+// mySVGElement.appendChild(myRect);
+var myForeigner = document.createElementNS(xmlns, "foreignObject");
+myForeigner.setAttributeNS(null, "id", "foreigner");
 
 // We test an encoded image
 var myIMG;
