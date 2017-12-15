@@ -14,14 +14,12 @@
 <style type="text/css">
   #fo_1 div {
     background-image: url("");
-	width: inherit;
-	height: inherit;
   }
 </style>
 </defs>
   <foreignObject id="fo_1" requiredExtensions="http://www.w3.org/1999/xhtml">
 	  <body xmlns="http://www.w3.org/1999/xhtml">
-  <div style='width:"100px";height:"100px";background-color:"green";'></div>
+  <div style='width:100px;height:100px;background-color:green;'></div>
 		  </body>
   </foreignObject>
 </svg>
