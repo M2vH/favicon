@@ -19,7 +19,7 @@ function makeBaseUri( svg ) {
 
 // set background-image to src("baseUri")
 function setBackgroundImage( element, baseUri ) {
-  element.setAttribute('style', 'background-image: url(baseUri)');
+  element.setAttribute('style', 'background-image: url(' + baseUri + ');');
 }
 
 // append an <img> to element#id
