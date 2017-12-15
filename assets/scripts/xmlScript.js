@@ -12,6 +12,16 @@ function imageWithBaseUri( svg ) {
   return myImg;
 }
 
+// return a baseUri from svg-element
+function makeBaseUri( svg ) {
+  return 'data:image/svg+xml;base64,' + window.btoa(unescape(encodeURIComponent(svg.outerHTML)));
+}
+
+// set background-image to src("baseUri")
+function setBackgroundImage( element, baseUri ) {
+  element.setAttribute('style', 'background-image: url(baseUri)');
+}
+
 // append an <img> to element#id
 function appendImage(id, img) {
   document.getElementById(id).appendChild(img);
