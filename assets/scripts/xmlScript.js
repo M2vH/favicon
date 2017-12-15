@@ -18,8 +18,8 @@ function appendImage(id, img) {
 } 
 
 // draw <img#id> into canvas
-// and replace with png
-function drawCanvas(img, id) {
+// and replace old with png
+function drawCanvas(img, id, old) {
   var myCanvas, myCtx;
   
   myCanvas = document.createElement('canvas');
@@ -33,5 +33,5 @@ function drawCanvas(img, id) {
   if (id) {
     png.id = "id";
   }
-  img.parentNode.replace(png, img)
+  old.parentNode.replaceChild(png, old)
 }
