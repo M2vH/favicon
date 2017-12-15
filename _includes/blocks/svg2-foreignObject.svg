@@ -12,7 +12,7 @@
 <defs>
 <!-- The STYLE -->
 <style type="text/css">
-  #fo_1 div {
+  #fo_1_div {
     background-image: url("");
   }
 </style>
