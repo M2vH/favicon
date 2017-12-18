@@ -1,7 +1,7 @@
 // m2vh
 // makeBaseUri( svg )
 
-// return an <img>-element with src=baseUri
+// return an <img>-element of type='svg+xml' with src='baseUri'
 function imageWithBaseUri( svg ) {
   var myImg;
   myImg = new Image();
@@ -17,8 +17,12 @@ function makeBaseUri( svg ) {
   return 'data:image/svg+xml;base64,' + window.btoa(unescape(encodeURIComponent(svg.outerHTML)));
 }
 
-// set background-image to src("baseUri")
-function setBackgroundImage( element, baseUri ) {
+// get element with id='elementid',
+// set background-image to src("baseUri"),
+// use this function to put svg-image into background
+// before converting
+function setBackgroundImage( elementid, baseUri ) {
+  var element = document.getElementById(elementid);
   element.setAttribute('style', 'background-image: url(' + baseUri + ');');
 }
 
@@ -27,9 +31,11 @@ function appendImage(id, img) {
   document.getElementById(id).appendChild(img);
 } 
 
-// draw <img#id> into canvas
-// and replace old with png
-function drawCanvas(img, id, old) {
+// draw <img#id> into canvas;
+// set id of new img (optional);
+// replace <svg> with <img type='image/png' [id='id']>
+// 
+function drawCanvas(img, svg, id) {
   var myCanvas, myCtx;
   
   myCanvas = document.createElement('canvas');
@@ -43,5 +49,5 @@ function drawCanvas(img, id, old) {
   if (id) {
     png.id = "id";
   }
-  old.parentNode.replaceChild(png, old)
+  svg.parentNode.replaceChild(png, svg)
 }
