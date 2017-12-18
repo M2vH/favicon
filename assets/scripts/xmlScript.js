@@ -1,7 +1,11 @@
 // m2vh
 // makeBaseUri( svg )
 
+// Use this function to get an <img> out of <svg>
+//
+// take a <svg>-element;
 // return an <img>-element of type='svg+xml' with src='baseUri'
+//
 function imageWithBaseUri( svg ) {
   var myImg;
   myImg = new Image();
@@ -17,20 +21,27 @@ function makeBaseUri( svg ) {
   return 'data:image/svg+xml;base64,' + window.btoa(unescape(encodeURIComponent(svg.outerHTML)));
 }
 
-// get element with id='elementid',
-// set background-image to src("baseUri"),
 // use this function to put svg-image into background
-// before converting
+//
+// get element with id='elementid';
+// set background-image to src("baseUri");
+//
 function setBackgroundImage( elementid, baseUri ) {
   var element = document.getElementById(elementid);
   element.setAttribute('style', 'background-image: url(' + baseUri + ');');
 }
 
-// append an <img> to element#id
+// use this function to put <img> into DOM
+//
+// append an <img> in element#id
+// 
 function appendImage(id, img) {
   document.getElementById(id).appendChild(img);
 } 
 
+// use this function to convert the result
+// of the 'Create PNG'-button
+//
 // draw <img#id> into canvas;
 // set id of new img (optional);
 // replace <svg> with <img type='image/png' [id='id']>
