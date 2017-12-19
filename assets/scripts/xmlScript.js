@@ -46,7 +46,7 @@ function appendImage(id, img) {
 // set id of new img (optional);
 // replace <svg> with <img type='image/png' [id='id']>
 // 
-function drawCanvas(img, svg, id) {
+function createPNGAndReplaceSVG(img, svg, id) {
   var myCanvas, myCtx;
   
   myCanvas = document.createElement('canvas');
@@ -58,7 +58,33 @@ function drawCanvas(img, svg, id) {
   var png = new Image();
   png.src = myCanvas.toDataURL('image/png');
   if (id) {
-    png.id = "id";
+    png.id = id;
   }
   svg.parentNode.replaceChild(png, svg)
+}
+
+// use this function to create <img type=image/png>
+// and append it to end of body
+// for debugging purpose
+//
+// Params:
+// - img 
+//    must be type of <img type='image/xml+svg'>
+// - id (optional)
+//
+function createPNGAndAppend(img, id) {
+  var myCanvas, myCtx;
+  
+  myCanvas = document.createElement('canvas');
+  myCanvas.width = img.width;
+  myCanvas.height = img.height;
+  myCtx = myCanvas.getContext('2d');
+  myCtx.drawImage(img, 0, 0)
+  
+  var png = new Image();
+  png.src = myCanvas.toDataURL('image/png');
+  if (id) {
+    png.id = id;
+  }
+  document.body.appendChild( png )
 }
