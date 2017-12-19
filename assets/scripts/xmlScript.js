@@ -9,8 +9,8 @@
 function imageWithBaseUri( svg ) {
   var myImg;
   myImg = new Image();
-  myImg.width = svg.width.baseVal.width;
-  myImg.height = svg.height.baseVal.height;
+  myImg.width = svg.width.baseVal.value;
+  myImg.height = svg.height.baseVal.value;
   myImg.src = 'data:image/svg+xml;base64,' + window.btoa(unescape(encodeURIComponent(svg.outerHTML)));
   
   return myImg;
