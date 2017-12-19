@@ -53,7 +53,7 @@ function createPNGAndReplaceSVG(img, svg, id) {
   myCanvas.width = img.width;
   myCanvas.height = img.height;
   myCtx = myCanvas.getContext('2d');
-  myCtx.drawImage(img, 0, 0)
+  myCtx.drawImage(img, 0, 0);
   
   var png = new Image();
   png.src = myCanvas.toDataURL('image/png');
@@ -79,7 +79,7 @@ function createPNGAndAppend(img, id) {
   myCanvas.width = img.width;
   myCanvas.height = img.height;
   myCtx = myCanvas.getContext('2d');
-  myCtx.drawImage(img, 0, 0)
+  myCtx.drawImage(img, 0, 0);
   
   var png = new Image();
   png.src = myCanvas.toDataURL('image/png');
