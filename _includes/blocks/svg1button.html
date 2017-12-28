@@ -78,8 +78,12 @@ input[type="text"]:focus {
 	    my_newtext_2.value = '';
 	  }
 	  function my_reset(){
-	  	document.getElementById('my_svg_name_batman').innerHTML='Batman';
-		document.getElementById('my_svg_name_robin').innerHTML='returns';	  
+	  	var text1, text2;
+		text1 = document.getElementById('my_svg_name_batman');
+		text2 = document.getElementById('my_svg_name_robin');
+		text1.innerHTML = text1.getAttribute('default');
+		text2.innerHTML = text2.getAttribute('default');
+		
 	  }
 	  function makePNG(){
 	  	var svg = document.getElementsByTagName('svg')[0];
